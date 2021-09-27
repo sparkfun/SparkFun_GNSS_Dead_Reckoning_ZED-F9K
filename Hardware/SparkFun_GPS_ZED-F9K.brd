@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -16,8 +16,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -34,7 +34,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -84,10 +84,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -15127,7 +15127,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="23.6888" y1="12.4366" x2="23.876" y2="12.6238" width="0.254" layer="1"/>
 <wire x1="26.213" y1="12.796" x2="26.371" y2="12.954" width="0.254" layer="1"/>
 <wire x1="26.371" y1="12.954" x2="27.825" y2="12.954" width="0.254" layer="1"/>
-<wire x1="23.6888" y1="11.31" x2="22.4104" y2="11.418" width="0" layer="19" extent="1-1"/>
+<wire x1="22.3772" y1="11.3848" x2="23.614" y2="11.3848" width="0.254" layer="1"/>
+<wire x1="23.614" y1="11.3848" x2="23.6888" y2="11.31" width="0.254" layer="1"/>
 </signal>
 <signal name="SCL/CLK">
 <contactref element="R16" pad="1"/>
@@ -15240,7 +15241,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="1.27" y1="16.51" x2="3.175" y2="18.415" width="0.254" layer="1"/>
 <wire x1="3.175" y1="18.415" x2="7" y2="18.415" width="0.254" layer="1"/>
 <wire x1="7" y1="18.415" x2="8.5167" y2="18.415" width="0.254" layer="1"/>
-<wire x1="8.7376" y1="18.1941" x2="8.5167" y2="18.415" width="0.254" layer="1"/>
 <wire x1="27.571" y1="2.54" x2="27" y2="3.111" width="0.254" layer="1"/>
 <wire x1="27" y1="3.111" x2="27" y2="4" width="0.254" layer="1"/>
 <wire x1="27" y1="4" x2="26" y2="5" width="0.254" layer="1"/>
@@ -15827,10 +15827,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="32.7426" y1="11.1612" x2="32.73" y2="11.1738" width="0.254" layer="1"/>
 <wire x1="32.73" y1="11.1738" x2="32.73" y2="11.6546" width="0.254" layer="1"/>
 </signal>
-<signal name="WT_SCHMITT">
+<signal name="WT_INV">
 <contactref element="R7" pad="1"/>
 <contactref element="U1" pad="7"/>
-<wire x1="24.7856" y1="8.632" x2="24.7854" y2="8.6322" width="0.254" layer="1"/>
 <wire x1="24.7854" y1="8.6322" x2="24.7015" y2="8.7161" width="0.254" layer="1"/>
 <wire x1="24.7015" y1="8.7161" x2="24.7015" y2="9.4615" width="0.254" layer="1"/>
 <wire x1="24.7854" y1="8.6322" x2="27.1316" y2="8.6322" width="0.254" layer="1"/>
@@ -15839,7 +15838,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="24.1888" y1="9.9742" x2="24.1888" y2="10.56" width="0.254" layer="1"/>
 <wire x1="24.7015" y1="9.4615" x2="24.1888" y2="9.9742" width="0.254" layer="1"/>
 </signal>
-<signal name="DIR_SCHMITT">
+<signal name="DIR_INV">
 <contactref element="R4" pad="1"/>
 <contactref element="U1" pad="6"/>
 <wire x1="28.952" y1="9.902" x2="30.475" y2="11.425" width="0.254" layer="1"/>
@@ -15906,7 +15905,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,a29f633edd24dabb"/>
 <approved hash="19,16,f2a74e161da38970"/>
 <approved hash="19,16,1fd9a79545a0d18e"/>
-<approved hash="23,1,b556f610f5ceb688"/>
+<approved hash="23,1,c06a96e7d993e637"/>
 </errors>
 </board>
 </drawing>

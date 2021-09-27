@@ -26404,8 +26404,8 @@ Input: 3-24V</text>
 <instance part="SUPPLY22" gate="G$1" x="76.2" y="78.74" smashed="yes">
 <attribute name="VALUE" x="76.2" y="81.534" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND26" gate="1" x="76.2" y="30.48" smashed="yes">
-<attribute name="VALUE" x="76.2" y="30.226" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND26" gate="1" x="78.74" y="30.48" smashed="yes">
+<attribute name="VALUE" x="78.74" y="30.226" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="D1" gate="G$1" x="43.18" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.498" y="49.022" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -26420,9 +26420,9 @@ Input: 3-24V</text>
 <attribute name="NAME" x="71.374" y="66.167" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="69.85" y="61.341" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C7" gate="G$1" x="76.2" y="40.64" smashed="yes">
-<attribute name="NAME" x="71.374" y="43.561" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="69.088" y="38.481" size="1.778" layer="96" font="vector"/>
+<instance part="C7" gate="G$1" x="78.74" y="40.64" smashed="yes">
+<attribute name="NAME" x="73.914" y="43.561" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="71.628" y="38.481" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND29" gate="1" x="76.2" y="53.34" smashed="yes">
 <attribute name="VALUE" x="76.2" y="53.086" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -26665,11 +26665,11 @@ Input: 3-24V</text>
 <wire x1="25.4" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="76.2" y1="38.1" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="35.56" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="38.1" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="35.56" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="38.1" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
-<junction x="76.2" y="35.56"/>
+<wire x1="88.9" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
+<junction x="78.74" y="35.56"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="U4" gate="U1" pin="GND"/>
@@ -26806,23 +26806,22 @@ Input: 3-24V</text>
 <pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
-<junction x="88.9" y="71.12"/>
+<wire x1="93.98" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="71.12" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="48.26" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
-<junction x="88.9" y="71.12"/>
-<wire x1="76.2" y1="45.72" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="45.72" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="G$1" pin="3.3V"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="U3" gate="U1" pin="VCC"/>
-<wire x1="93.98" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="48.26" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="78.74" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
 <junction x="76.2" y="71.12"/>
 <pinref part="U4" gate="U1" pin="VCC"/>
-<wire x1="93.98" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
-<junction x="88.9" y="48.26"/>
+<wire x1="81.28" y1="48.26" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
+<junction x="81.28" y="48.26"/>
+<junction x="81.28" y="71.12"/>
 </segment>
 <segment>
 <wire x1="68.326" y1="111.506" x2="68.326" y2="114.3" width="0.1524" layer="91"/>
@@ -27448,7 +27447,7 @@ Input: 3-24V</text>
 <pinref part="U1" gate="U1" pin="ANODE1"/>
 </segment>
 </net>
-<net name="WT_SCHMITT" class="0">
+<net name="WT_INV" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="88.9" x2="68.326" y2="88.9" width="0.1524" layer="91"/>
@@ -27464,7 +27463,7 @@ Input: 3-24V</text>
 <pinref part="U3" gate="U1" pin="A"/>
 </segment>
 </net>
-<net name="DIR_SCHMITT" class="0">
+<net name="DIR_INV" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
