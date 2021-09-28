@@ -22067,7 +22067,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="0603">
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
 <description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
 <wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
@@ -22788,6 +22788,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="RES-13829" constant="no"/>
+<attribute name="VALUE" value="470" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-TIGHT-1/16W-5%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-13829" constant="no"/>
+<attribute name="VALUE" value="470Ω" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-TIGHT-1/16W-1%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-15584" constant="no"/>
 <attribute name="VALUE" value="470" constant="no"/>
 </technology>
 </technologies>
@@ -23550,13 +23574,13 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <description>&lt;h3&gt;1nF/1,000pF ceramic capacitors&lt;/h3&gt;
 &lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
+<gate name="C1" symbol="CAP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-0603-50V-10%" package="0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="C1" pin="1" pad="1"/>
+<connect gate="C1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -23567,8 +23591,8 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </device>
 <device name="-0402_TIGHT-50V-10%" package="0402-TIGHT">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="C1" pin="1" pad="1"/>
+<connect gate="C1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -23579,8 +23603,8 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </device>
 <device name="-0402-50V-10%" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="C1" pin="1" pad="1"/>
+<connect gate="C1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -23588,12 +23612,24 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </device>
 <device name="-0402-25V-10%-X7R" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="C1" pin="1" pad="1"/>
+<connect gate="C1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CAP-15061" constant="no"/>
+<attribute name="VALUE" value="1nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-2KV-10%" package="1206">
+<connects>
+<connect gate="C1" pin="1" pad="1"/>
+<connect gate="C1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-16238" constant="no"/>
 <attribute name="VALUE" value="1nF" constant="no"/>
 </technology>
 </technologies>
@@ -26332,11 +26368,11 @@ Input: 3-24V</text>
 <attribute name="NAME" x="48.26" y="54.864" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="53.34" y="56.896" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C3" gate="G$1" x="33.02" y="45.72" smashed="yes">
+<instance part="C3" gate="C1" x="33.02" y="45.72" smashed="yes">
 <attribute name="NAME" x="34.544" y="48.641" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="34.544" y="43.561" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C4" gate="G$1" x="33.02" y="20.32" smashed="yes">
+<instance part="C4" gate="C1" x="33.02" y="20.32" smashed="yes">
 <attribute name="NAME" x="34.544" y="23.241" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="34.544" y="18.161" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -26660,7 +26696,7 @@ Input: 3-24V</text>
 <wire x1="38.1" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="43.18" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="43.18" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C3" gate="C1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="38.1" y1="38.1" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
@@ -26671,7 +26707,7 @@ Input: 3-24V</text>
 <wire x1="33.02" y1="15.24" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="20.32" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C4" gate="C1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="38.1" y1="12.7" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
@@ -27383,7 +27419,7 @@ Input: 3-24V</text>
 <junction x="43.18" y="27.94"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C4" gate="C1" pin="1"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 </net>
@@ -27478,7 +27514,7 @@ Input: 3-24V</text>
 <junction x="43.18" y="53.34"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C3" gate="C1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 </net>
