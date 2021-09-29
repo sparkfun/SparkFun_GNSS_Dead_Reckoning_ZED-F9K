@@ -26057,7 +26057,7 @@ voltages up to 5.5 V independent of VCC operating voltage.
 <part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
 <part name="R23" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
-<part name="JP6" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1"/>
+<part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -26180,14 +26180,14 @@ voltages up to 5.5 V independent of VCC operating voltage.
 <plain>
 <text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="349.25" y="11.43" size="2.54" layer="94" font="vector">Elias Santistevan</text>
-<text x="86.36" y="269.24" size="3.81" layer="94" font="vector" align="center">GNSS/Dead Reckoning Module - ublox ZED-F9K</text>
-<text x="385.572" y="272.034" size="3.81" layer="94" font="vector" align="center">Battery</text>
-<text x="355.6" y="127" size="3.81" layer="94" font="vector" align="center">Connectors</text>
-<text x="248.92" y="127" size="3.81" layer="94" font="vector" align="center">Jumpers</text>
+<text x="86.36" y="269.24" size="2.54" layer="94" font="vector" align="center">GNSS/Dead Reckoning Module - ublox ZED-F9K</text>
+<text x="385.572" y="272.034" size="2.54" layer="94" font="vector" align="center">Battery</text>
+<text x="355.6" y="127" size="2.54" layer="94" font="vector" align="center">Connectors</text>
+<text x="248.92" y="127" size="2.54" layer="94" font="vector" align="center">Jumpers</text>
 <text x="228.6" y="76.2" size="2.54" layer="97" font="vector">Close Jumper for SPI</text>
 <text x="228.6" y="109.22" size="2.54" layer="97" font="vector">I2C Pull ups</text>
 <text x="218.186" y="54.102" size="2.54" layer="97" font="vector">Cut trace to disconnect respective LED</text>
-<text x="177.8" y="127" size="3.81" layer="94" font="vector" align="center">Antenna</text>
+<text x="177.8" y="127" size="2.54" layer="94" font="vector" align="center">Antenna</text>
 <wire x1="175.26" y1="134.62" x2="175.26" y2="279.4" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="175.26" y1="134.62" x2="210.82" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
 <text x="391.16" y="223.52" size="1.27" layer="97" font="vector">*Battery Initial Charge: 2.3-2.8V
@@ -26198,7 +26198,7 @@ voltages up to 5.5 V independent of VCC operating voltage.
 *72 hours charge time from 2.0-3.1V</text>
 <text x="304.8" y="236.22" size="1.27" layer="97" font="vector">VIN Range: 2.5V - 6V
 Max Current: 600mA</text>
-<text x="256.54" y="269.24" size="3.81" layer="94" font="vector" align="center">Power</text>
+<text x="256.54" y="269.24" size="2.54" layer="94" font="vector" align="center">USB-C and Voltage Regulation: AP2112K</text>
 <wire x1="210.82" y1="134.62" x2="292.1" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="292.1" y1="134.62" x2="340.36" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="340.36" y1="134.62" x2="431.8" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
@@ -26214,7 +26214,7 @@ Max Current: 600mA</text>
 <wire x1="175.26" y1="134.62" x2="144.78" y2="134.62" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="144.78" y1="134.62" x2="144.78" y2="0" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="144.78" y1="134.62" x2="0" y2="134.62" width="0.2032" layer="97" style="shortdash"/>
-<text x="68.58" y="127" size="3.81" layer="94" font="vector" align="center">Wheel Tick and Direction Signal</text>
+<text x="68.58" y="127" size="2.54" layer="94" font="vector" align="center">Wheel Tick and Direction Signal</text>
 <text x="5.08" y="38.1" size="1.778" layer="97" font="vector">Wheel Tick/Direction
 Input: 3-24V</text>
 <text x="149.86" y="96.52" size="1.778" layer="97" font="vector">L1/L2 Antenna</text>
@@ -26232,7 +26232,7 @@ Input: 3-24V</text>
 <attribute name="NAME" x="242.316" y="99.06" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="245.364" y="99.06" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="JP6" gate="G$1" x="251.46" y="106.68" smashed="yes" rot="R270">
+<instance part="I2C" gate="G$1" x="251.46" y="106.68" smashed="yes" rot="R270">
 <attribute name="NAME" x="248.92" y="101.981" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND12" gate="1" x="314.96" y="96.52" smashed="yes">
@@ -26517,7 +26517,8 @@ Input: 3-24V</text>
 <attribute name="VALUE" x="34.544" y="18.161" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="D2" gate="G$1" x="43.18" y="22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="47.498" y="26.162" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="NAME" x="47.498" y="25.4" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="49.022" y="19.304" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="R7" gate="G$1" x="68.326" y="106.426" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.802" y="106.426" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -26548,7 +26549,8 @@ Input: 3-24V</text>
 <attribute name="VALUE" x="78.74" y="30.226" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="D1" gate="G$1" x="43.18" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="47.498" y="49.022" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="NAME" x="47.752" y="49.276" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="48.514" y="42.164" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="SUPPLY23" gate="G$1" x="68.326" y="114.3" smashed="yes">
 <attribute name="VALUE" x="68.326" y="117.094" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -26648,11 +26650,11 @@ Input: 3-24V</text>
 </instance>
 <instance part="U3" gate="U1" x="106.68" y="66.04" smashed="yes">
 <attribute name="NAME" x="96.52" y="74.422" size="1.778" layer="95"/>
-<attribute name="VALUE" x="96.52" y="55.88" size="1.778" layer="95"/>
+<attribute name="VALUE" x="91.44" y="55.88" size="1.778" layer="95"/>
 </instance>
 <instance part="U4" gate="U1" x="106.68" y="43.18" smashed="yes">
 <attribute name="NAME" x="96.52" y="51.562" size="1.778" layer="95"/>
-<attribute name="VALUE" x="96.52" y="33.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="91.44" y="33.02" size="1.778" layer="95"/>
 </instance>
 <instance part="TP1" gate="G$1" x="391.16" y="208.28" smashed="yes">
 <attribute name="NAME" x="391.16" y="210.82" size="1.778" layer="95" font="vector"/>
@@ -26869,7 +26871,7 @@ Input: 3-24V</text>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="JP6" gate="G$1" pin="2"/>
+<pinref part="I2C" gate="G$1" pin="2"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 <wire x1="251.46" y1="111.76" x2="251.46" y2="114.3" width="0.1524" layer="91"/>
 </segment>
@@ -27107,13 +27109,13 @@ Input: 3-24V</text>
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="101.6" x2="259.08" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="1"/>
+<pinref part="I2C" gate="G$1" pin="1"/>
 <wire x1="259.08" y1="106.68" x2="256.54" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="JP6" gate="G$1" pin="3"/>
+<pinref part="I2C" gate="G$1" pin="3"/>
 <wire x1="246.38" y1="106.68" x2="243.84" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="106.68" x2="243.84" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
