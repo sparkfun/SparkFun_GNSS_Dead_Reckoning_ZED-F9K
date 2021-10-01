@@ -27693,6 +27693,9 @@ Input: 3-24V</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,71.12,220.98,U2,ANT_DETECT,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -14694,7 +14694,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="R6" library="SparkFun-Resistors" package="0603" value="470" x="35.98155" y="11.728" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.98155" y="10.966" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07869" x="43.98155" y="-22.272" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="35.98155" y="12.49" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="VALUE" value="470" x="35.98155" y="12.49" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="0603" value="3.3k" x="35.98155" y="13.231" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.98155" y="12.469" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -14704,7 +14704,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="R5" library="SparkFun-Resistors" package="0603" value="470" x="35.98155" y="19.535" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.98155" y="18.773" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07869" x="51.98155" y="-6.465" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="35.98155" y="20.297" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="VALUE" value="470" x="35.98155" y="20.297" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C3" library="SparkFun-Capacitors" package="0402" value="1nF" x="35.98155" y="18.012" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.98155" y="17.25" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
