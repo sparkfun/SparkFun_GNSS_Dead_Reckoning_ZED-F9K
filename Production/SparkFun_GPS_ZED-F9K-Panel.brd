@@ -10,18 +10,6 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
@@ -228,6 +216,7 @@
 <wire x1="12.065" y1="14.224" x2="12.446" y2="14.605" width="0.254" layer="22"/>
 <wire x1="8.2005875" y1="15.040409375" x2="9.0986125" y2="14.142384375" width="0.254" layer="22"/>
 <wire x1="9.046009375" y1="14.989609375" x2="8.147984375" y2="14.091584375" width="0.254" layer="22"/>
+<text x="21.59" y="-2.54" size="1.778" layer="20" ratio="15" align="center">Route Out</text>
 <wire x1="43.688" y1="0" x2="43.688" y2="50.8" width="0.2032" layer="20"/>
 <wire x1="43.688" y1="50.8" x2="86.868" y2="50.8" width="0.2032" layer="20"/>
 <wire x1="86.868" y1="50.8" x2="86.868" y2="0" width="0.2032" layer="20"/>
@@ -261,6 +250,7 @@
 <wire x1="55.753" y1="14.224" x2="56.134" y2="14.605" width="0.254" layer="22"/>
 <wire x1="51.8885875" y1="15.040409375" x2="52.7866125" y2="14.142384375" width="0.254" layer="22"/>
 <wire x1="52.734009375" y1="14.989609375" x2="51.835984375" y2="14.091584375" width="0.254" layer="22"/>
+<text x="65.278" y="-2.54" size="1.778" layer="20" ratio="15" align="center">Route Out</text>
 <wire x1="0" y1="55.88" x2="0" y2="106.68" width="0.2032" layer="20"/>
 <wire x1="0" y1="106.68" x2="43.18" y2="106.68" width="0.2032" layer="20"/>
 <wire x1="43.18" y1="106.68" x2="43.18" y2="55.88" width="0.2032" layer="20"/>
@@ -399,30 +389,28 @@
 <wire x1="52.734009375" y1="126.749609375" x2="51.835984375" y2="125.851584375" width="0.254" layer="22"/>
 <text x="65.278" y="109.22" size="1.778" layer="20" ratio="15" align="center">Route Out</text>
 <text x="65.278" y="165.1" size="1.778" layer="20" ratio="15" align="center">Route Out</text>
-<wire x1="-0.254" y1="-6.858" x2="-0.254" y2="179.07" width="0.381" layer="46"/>
+<wire x1="-0.254" y1="-11.43" x2="-0.254" y2="179.07" width="0.381" layer="46"/>
 <text x="-0.254" y="181.356" size="1.778" layer="46" ratio="15" align="center">v-score</text>
-<wire x1="43.434" y1="-6.858" x2="43.434" y2="179.07" width="0.381" layer="46"/>
+<wire x1="43.434" y1="-11.43" x2="43.434" y2="179.07" width="0.381" layer="46"/>
 <text x="43.434" y="181.356" size="1.778" layer="46" ratio="15" align="center">v-score</text>
-<wire x1="87.122" y1="-6.858" x2="87.122" y2="179.07" width="0.381" layer="46"/>
+<wire x1="87.122" y1="-11.43" x2="87.122" y2="179.07" width="0.381" layer="46"/>
 <text x="87.122" y="181.356" size="1.778" layer="46" ratio="15" align="center">v-score</text>
-<wire x1="-6.858" y1="-0.508" x2="93.726" y2="-0.508" width="0.254" layer="20"/>
-<wire x1="93.726" y1="-0.508" x2="93.726" y2="-6.858" width="0.254" layer="20"/>
-<wire x1="93.726" y1="-6.858" x2="-6.858" y2="-6.858" width="0.254" layer="20"/>
-<wire x1="-6.858" y1="-6.858" x2="-6.858" y2="-0.508" width="0.254" layer="20"/>
+<wire x1="-6.858" y1="-5.08" x2="93.726" y2="-5.08" width="0.254" layer="20"/>
+<wire x1="93.726" y1="-5.08" x2="93.726" y2="-11.43" width="0.254" layer="20"/>
+<wire x1="93.726" y1="-11.43" x2="-6.858" y2="-11.43" width="0.254" layer="20"/>
+<wire x1="-6.858" y1="-11.43" x2="-6.858" y2="-5.08" width="0.254" layer="20"/>
 <wire x1="87.376" y1="167.132" x2="93.726" y2="167.132" width="0.254" layer="20"/>
-<wire x1="93.726" y1="167.132" x2="93.726" y2="0" width="0.254" layer="20"/>
-<wire x1="93.726" y1="0" x2="87.376" y2="0" width="0.254" layer="20"/>
-<wire x1="87.376" y1="0" x2="87.376" y2="167.132" width="0.254" layer="20"/>
+<wire x1="93.726" y1="167.132" x2="93.726" y2="-4.572" width="0.254" layer="20"/>
+<wire x1="93.726" y1="-4.572" x2="87.376" y2="-4.572" width="0.254" layer="20"/>
+<wire x1="87.376" y1="-4.572" x2="87.376" y2="167.132" width="0.254" layer="20"/>
 <wire x1="-6.858" y1="173.99" x2="93.726" y2="173.99" width="0.254" layer="20"/>
 <wire x1="93.726" y1="173.99" x2="93.726" y2="167.64" width="0.254" layer="20"/>
 <wire x1="93.726" y1="167.64" x2="-6.858" y2="167.64" width="0.254" layer="20"/>
 <wire x1="-6.858" y1="167.64" x2="-6.858" y2="173.99" width="0.254" layer="20"/>
 <wire x1="-6.858" y1="167.132" x2="-0.508" y2="167.132" width="0.254" layer="20"/>
-<wire x1="-0.508" y1="167.132" x2="-0.508" y2="0" width="0.254" layer="20"/>
-<wire x1="-0.508" y1="0" x2="-6.858" y2="0" width="0.254" layer="20"/>
-<wire x1="-6.858" y1="0" x2="-6.858" y2="167.132" width="0.254" layer="20"/>
-<wire x1="-6.858" y1="-0.254" x2="99.187" y2="-0.254" width="0.254" layer="46"/>
-<text x="103.886" y="0" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<wire x1="-0.508" y1="167.132" x2="-0.508" y2="-4.572" width="0.254" layer="20"/>
+<wire x1="-0.508" y1="-4.572" x2="-6.858" y2="-4.572" width="0.254" layer="20"/>
+<wire x1="-6.858" y1="-4.572" x2="-6.858" y2="167.132" width="0.254" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -12350,367 +12338,6 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <vertex x="-3.45" y="0.68"/>
 </polygon>
 </package>
-<package name="#TXO#COPI#9">
-<polygon width="0.01" layer="21">
-<vertex x="-3.94" y="0.68"/>
-<vertex x="-4.21" y="0.68"/>
-<vertex x="-4.22" y="0.62"/>
-<vertex x="-4.22" y="-0.66"/>
-<vertex x="-4.17" y="-0.68"/>
-<vertex x="4.5" y="-0.68"/>
-<vertex x="4.56" y="-0.67"/>
-<vertex x="4.23" y="-0.01"/>
-<vertex x="4.25" y="0.05"/>
-<vertex x="4.55" y="0.66"/>
-<vertex x="4.51" y="0.68"/>
-<vertex x="-3.88" y="0.68"/>
-<vertex x="-3.84" y="0.46"/>
-<vertex x="-3.79" y="0.48"/>
-<vertex x="-3.76" y="0.48"/>
-<vertex x="-3.08" y="0.48"/>
-<vertex x="-3.01" y="0.48"/>
-<vertex x="-2.96" y="0.45"/>
-<vertex x="-2.96" y="0.38"/>
-<vertex x="-2.75" y="0.39"/>
-<vertex x="-2.73" y="0.44"/>
-<vertex x="-2.67" y="0.49"/>
-<vertex x="-2.62" y="0.51"/>
-<vertex x="-2.56" y="0.49"/>
-<vertex x="-2.51" y="0.44"/>
-<vertex x="-2.33" y="0.23"/>
-<vertex x="-2.29" y="0.19"/>
-<vertex x="-2.07" y="0.44"/>
-<vertex x="-2.01" y="0.49"/>
-<vertex x="-1.96" y="0.51"/>
-<vertex x="-1.9" y="0.49"/>
-<vertex x="-1.85" y="0.43"/>
-<vertex x="-1.83" y="0.38"/>
-<vertex x="-1.87" y="0.32"/>
-<vertex x="-2.1" y="0.06"/>
-<vertex x="-2.13" y="0.02"/>
-<vertex x="-1.9" y="-0.23"/>
-<vertex x="-1.86" y="-0.29"/>
-<vertex x="-1.37" y="-0.12"/>
-<vertex x="-1.56" y="-0.21"/>
-<vertex x="-1.59" y="-0.15"/>
-<vertex x="-1.61" y="-0.09"/>
-<vertex x="-1.61" y="-0.02"/>
-<vertex x="-1.61" y="0.05"/>
-<vertex x="-1.6" y="0.12"/>
-<vertex x="-1.59" y="0.18"/>
-<vertex x="-1.56" y="0.25"/>
-<vertex x="-1.53" y="0.31"/>
-<vertex x="-1.49" y="0.36"/>
-<vertex x="-1.44" y="0.4"/>
-<vertex x="-1.38" y="0.44"/>
-<vertex x="-1.32" y="0.47"/>
-<vertex x="-1.26" y="0.49"/>
-<vertex x="-1.19" y="0.5"/>
-<vertex x="-1.08" y="0.5"/>
-<vertex x="-1.02" y="0.48"/>
-<vertex x="-0.96" y="0.46"/>
-<vertex x="-0.9" y="0.43"/>
-<vertex x="-0.84" y="0.39"/>
-<vertex x="-0.79" y="0.34"/>
-<vertex x="-0.75" y="0.28"/>
-<vertex x="-0.72" y="0.23"/>
-<vertex x="-0.69" y="0.16"/>
-<vertex x="-0.68" y="0.1"/>
-<vertex x="-0.67" y="0.03"/>
-<vertex x="-0.68" y="-0.04"/>
-<vertex x="-0.69" y="-0.11"/>
-<vertex x="-0.71" y="-0.17"/>
-<vertex x="-0.45" y="-0.28"/>
-<vertex x="-0.07" y="0.51"/>
-<vertex x="-0.04" y="0.58"/>
-<vertex x="0.01" y="0.62"/>
-<vertex x="0.07" y="0.6"/>
-<vertex x="0.14" y="0.56"/>
-<vertex x="0.16" y="0.51"/>
-<vertex x="0.13" y="0.45"/>
-<vertex x="0.45" y="0.29"/>
-<vertex x="0.49" y="0.34"/>
-<vertex x="0.54" y="0.38"/>
-<vertex x="0.6" y="0.42"/>
-<vertex x="0.66" y="0.46"/>
-<vertex x="0.72" y="0.48"/>
-<vertex x="0.79" y="0.49"/>
-<vertex x="0.85" y="0.5"/>
-<vertex x="0.92" y="0.5"/>
-<vertex x="0.99" y="0.49"/>
-<vertex x="1.06" y="0.46"/>
-<vertex x="1.11" y="0.43"/>
-<vertex x="1.17" y="0.39"/>
-<vertex x="1.2" y="0.34"/>
-<vertex x="1.17" y="0.27"/>
-<vertex x="1.12" y="0.21"/>
-<vertex x="1.07" y="0.2"/>
-<vertex x="0.95" y="0.26"/>
-<vertex x="0.88" y="0.27"/>
-<vertex x="0.82" y="0.27"/>
-<vertex x="0.75" y="0.25"/>
-<vertex x="0.69" y="0.21"/>
-<vertex x="0.65" y="0.16"/>
-<vertex x="0.62" y="0.1"/>
-<vertex x="0.61" y="0.03"/>
-<vertex x="0.61" y="-0.04"/>
-<vertex x="0.63" y="-0.1"/>
-<vertex x="0.67" y="-0.16"/>
-<vertex x="0.72" y="-0.2"/>
-<vertex x="0.78" y="-0.23"/>
-<vertex x="0.85" y="-0.24"/>
-<vertex x="0.91" y="-0.24"/>
-<vertex x="0.98" y="-0.22"/>
-<vertex x="1.02" y="-0.19"/>
-<vertex x="1.08" y="-0.17"/>
-<vertex x="1.13" y="-0.2"/>
-<vertex x="1.17" y="-0.27"/>
-<vertex x="1.63" y="-0.06"/>
-<vertex x="1.63" y="0"/>
-<vertex x="1.63" y="0.07"/>
-<vertex x="1.66" y="0.14"/>
-<vertex x="1.69" y="0.19"/>
-<vertex x="1.75" y="0.24"/>
-<vertex x="1.81" y="0.26"/>
-<vertex x="1.87" y="0.27"/>
-<vertex x="1.94" y="0.26"/>
-<vertex x="2" y="0.23"/>
-<vertex x="2.05" y="0.18"/>
-<vertex x="2.09" y="0.13"/>
-<vertex x="2.11" y="0.07"/>
-<vertex x="2.11" y="-0.01"/>
-<vertex x="2.1" y="-0.08"/>
-<vertex x="2.07" y="-0.14"/>
-<vertex x="2.02" y="-0.19"/>
-<vertex x="1.97" y="-0.22"/>
-<vertex x="1.9" y="-0.24"/>
-<vertex x="1.84" y="-0.24"/>
-<vertex x="1.78" y="-0.22"/>
-<vertex x="1.72" y="-0.19"/>
-<vertex x="1.67" y="-0.14"/>
-<vertex x="1.63" y="-0.07"/>
-<vertex x="1.42" y="-0.13"/>
-<vertex x="1.4" y="-0.06"/>
-<vertex x="1.4" y="0.01"/>
-<vertex x="1.4" y="0.08"/>
-<vertex x="1.41" y="0.14"/>
-<vertex x="1.43" y="0.21"/>
-<vertex x="1.46" y="0.27"/>
-<vertex x="1.5" y="0.32"/>
-<vertex x="1.55" y="0.37"/>
-<vertex x="1.6" y="0.42"/>
-<vertex x="1.66" y="0.45"/>
-<vertex x="1.72" y="0.48"/>
-<vertex x="1.78" y="0.49"/>
-<vertex x="1.85" y="0.5"/>
-<vertex x="1.89" y="0.5"/>
-<vertex x="1.96" y="0.49"/>
-<vertex x="2.02" y="0.48"/>
-<vertex x="2.08" y="0.45"/>
-<vertex x="2.14" y="0.41"/>
-<vertex x="2.19" y="0.37"/>
-<vertex x="2.24" y="0.32"/>
-<vertex x="2.28" y="0.26"/>
-<vertex x="2.31" y="0.2"/>
-<vertex x="2.33" y="0.14"/>
-<vertex x="2.34" y="0.07"/>
-<vertex x="2.79" y="0.07"/>
-<vertex x="2.79" y="0.2"/>
-<vertex x="2.81" y="0.25"/>
-<vertex x="2.95" y="0.25"/>
-<vertex x="3.01" y="0.24"/>
-<vertex x="3.13" y="0.43"/>
-<vertex x="3.19" y="0.39"/>
-<vertex x="3.23" y="0.34"/>
-<vertex x="3.27" y="0.28"/>
-<vertex x="3.3" y="0.22"/>
-<vertex x="3.51" y="0.3"/>
-<vertex x="3.51" y="0.37"/>
-<vertex x="3.51" y="0.43"/>
-<vertex x="3.55" y="0.47"/>
-<vertex x="3.63" y="0.48"/>
-<vertex x="3.7" y="0.46"/>
-<vertex x="3.73" y="0.42"/>
-<vertex x="3.74" y="0.35"/>
-<vertex x="3.74" y="-0.33"/>
-<vertex x="3.73" y="-0.4"/>
-<vertex x="3.71" y="-0.45"/>
-<vertex x="3.65" y="-0.47"/>
-<vertex x="3.56" y="-0.47"/>
-<vertex x="3.52" y="-0.44"/>
-<vertex x="3.51" y="-0.38"/>
-<vertex x="3.51" y="0.3"/>
-<vertex x="3.3" y="0.22"/>
-<vertex x="3.3" y="0.21"/>
-<vertex x="3.3" y="0.14"/>
-<vertex x="3.3" y="0.07"/>
-<vertex x="3.28" y="0.01"/>
-<vertex x="3.25" y="-0.05"/>
-<vertex x="3.21" y="-0.1"/>
-<vertex x="3.15" y="-0.15"/>
-<vertex x="3.09" y="-0.18"/>
-<vertex x="3.03" y="-0.2"/>
-<vertex x="2.97" y="-0.21"/>
-<vertex x="2.83" y="-0.21"/>
-<vertex x="2.79" y="-0.24"/>
-<vertex x="2.79" y="-0.38"/>
-<vertex x="2.78" y="-0.44"/>
-<vertex x="2.73" y="-0.47"/>
-<vertex x="2.64" y="-0.47"/>
-<vertex x="2.58" y="-0.45"/>
-<vertex x="2.57" y="-0.4"/>
-<vertex x="2.56" y="-0.33"/>
-<vertex x="2.56" y="0.35"/>
-<vertex x="2.56" y="0.42"/>
-<vertex x="2.59" y="0.47"/>
-<vertex x="2.67" y="0.48"/>
-<vertex x="2.94" y="0.48"/>
-<vertex x="3.01" y="0.48"/>
-<vertex x="3.07" y="0.46"/>
-<vertex x="3.13" y="0.43"/>
-<vertex x="3.01" y="0.24"/>
-<vertex x="3.06" y="0.19"/>
-<vertex x="3.07" y="0.12"/>
-<vertex x="3.05" y="0.06"/>
-<vertex x="2.95" y="0.02"/>
-<vertex x="2.82" y="0.02"/>
-<vertex x="2.79" y="0.06"/>
-<vertex x="2.34" y="0.07"/>
-<vertex x="2.34" y="0"/>
-<vertex x="2.33" y="-0.07"/>
-<vertex x="2.32" y="-0.13"/>
-<vertex x="2.3" y="-0.19"/>
-<vertex x="2.26" y="-0.25"/>
-<vertex x="2.22" y="-0.31"/>
-<vertex x="2.17" y="-0.36"/>
-<vertex x="2.12" y="-0.4"/>
-<vertex x="2.06" y="-0.43"/>
-<vertex x="2" y="-0.46"/>
-<vertex x="1.94" y="-0.47"/>
-<vertex x="1.87" y="-0.47"/>
-<vertex x="1.8" y="-0.47"/>
-<vertex x="1.73" y="-0.45"/>
-<vertex x="1.67" y="-0.43"/>
-<vertex x="1.61" y="-0.4"/>
-<vertex x="1.56" y="-0.35"/>
-<vertex x="1.51" y="-0.3"/>
-<vertex x="1.47" y="-0.25"/>
-<vertex x="1.44" y="-0.19"/>
-<vertex x="1.42" y="-0.13"/>
-<vertex x="1.63" y="-0.07"/>
-<vertex x="1.18" y="-0.27"/>
-<vertex x="1.19" y="-0.33"/>
-<vertex x="1.15" y="-0.38"/>
-<vertex x="1.09" y="-0.42"/>
-<vertex x="1.04" y="-0.44"/>
-<vertex x="0.96" y="-0.46"/>
-<vertex x="0.9" y="-0.47"/>
-<vertex x="0.83" y="-0.47"/>
-<vertex x="0.76" y="-0.46"/>
-<vertex x="0.7" y="-0.44"/>
-<vertex x="0.64" y="-0.41"/>
-<vertex x="0.58" y="-0.38"/>
-<vertex x="0.53" y="-0.34"/>
-<vertex x="0.48" y="-0.29"/>
-<vertex x="0.44" y="-0.23"/>
-<vertex x="0.41" y="-0.17"/>
-<vertex x="0.39" y="-0.11"/>
-<vertex x="0.38" y="-0.04"/>
-<vertex x="0.38" y="0.03"/>
-<vertex x="0.38" y="0.1"/>
-<vertex x="0.4" y="0.16"/>
-<vertex x="0.42" y="0.23"/>
-<vertex x="0.45" y="0.29"/>
-<vertex x="0.13" y="0.44"/>
-<vertex x="-0.27" y="-0.41"/>
-<vertex x="-0.3" y="-0.45"/>
-<vertex x="-0.36" y="-0.47"/>
-<vertex x="-0.43" y="-0.45"/>
-<vertex x="-0.48" y="-0.41"/>
-<vertex x="-0.48" y="-0.35"/>
-<vertex x="-0.45" y="-0.28"/>
-<vertex x="-0.71" y="-0.17"/>
-<vertex x="-0.74" y="-0.23"/>
-<vertex x="-0.78" y="-0.29"/>
-<vertex x="-0.82" y="-0.34"/>
-<vertex x="-0.87" y="-0.39"/>
-<vertex x="-0.93" y="-0.42"/>
-<vertex x="-0.99" y="-0.45"/>
-<vertex x="-1.05" y="-0.47"/>
-<vertex x="-1.12" y="-0.47"/>
-<vertex x="-1.19" y="-0.47"/>
-<vertex x="-1.26" y="-0.46"/>
-<vertex x="-1.32" y="-0.44"/>
-<vertex x="-1.38" y="-0.41"/>
-<vertex x="-1.43" y="-0.37"/>
-<vertex x="-1.49" y="-0.32"/>
-<vertex x="-1.53" y="-0.27"/>
-<vertex x="-1.56" y="-0.21"/>
-<vertex x="-1.37" y="-0.12"/>
-<vertex x="-1.39" y="-0.04"/>
-<vertex x="-1.38" y="0.03"/>
-<vertex x="-1.37" y="0.1"/>
-<vertex x="-1.35" y="0.16"/>
-<vertex x="-1.3" y="0.21"/>
-<vertex x="-1.24" y="0.25"/>
-<vertex x="-1.18" y="0.27"/>
-<vertex x="-1.12" y="0.27"/>
-<vertex x="-1.05" y="0.25"/>
-<vertex x="-0.99" y="0.21"/>
-<vertex x="-0.95" y="0.16"/>
-<vertex x="-0.92" y="0.11"/>
-<vertex x="-0.91" y="0.04"/>
-<vertex x="-0.91" y="-0.04"/>
-<vertex x="-0.93" y="-0.1"/>
-<vertex x="-0.96" y="-0.16"/>
-<vertex x="-1.01" y="-0.2"/>
-<vertex x="-1.07" y="-0.23"/>
-<vertex x="-1.13" y="-0.24"/>
-<vertex x="-1.2" y="-0.24"/>
-<vertex x="-1.26" y="-0.21"/>
-<vertex x="-1.32" y="-0.17"/>
-<vertex x="-1.36" y="-0.12"/>
-<vertex x="-1.85" y="-0.29"/>
-<vertex x="-1.83" y="-0.34"/>
-<vertex x="-1.85" y="-0.4"/>
-<vertex x="-1.91" y="-0.46"/>
-<vertex x="-1.97" y="-0.47"/>
-<vertex x="-2.02" y="-0.44"/>
-<vertex x="-2.25" y="-0.18"/>
-<vertex x="-2.29" y="-0.14"/>
-<vertex x="-2.51" y="-0.39"/>
-<vertex x="-2.57" y="-0.45"/>
-<vertex x="-2.62" y="-0.47"/>
-<vertex x="-2.67" y="-0.45"/>
-<vertex x="-2.73" y="-0.39"/>
-<vertex x="-2.75" y="-0.34"/>
-<vertex x="-2.72" y="-0.29"/>
-<vertex x="-2.49" y="-0.03"/>
-<vertex x="-2.45" y="0.02"/>
-<vertex x="-2.72" y="0.33"/>
-<vertex x="-2.75" y="0.39"/>
-<vertex x="-2.96" y="0.38"/>
-<vertex x="-2.97" y="0.31"/>
-<vertex x="-3.03" y="0.29"/>
-<vertex x="-3.23" y="0.29"/>
-<vertex x="-3.3" y="0.28"/>
-<vertex x="-3.3" y="-0.33"/>
-<vertex x="-3.3" y="-0.4"/>
-<vertex x="-3.32" y="-0.45"/>
-<vertex x="-3.38" y="-0.47"/>
-<vertex x="-3.46" y="-0.47"/>
-<vertex x="-3.51" y="-0.44"/>
-<vertex x="-3.52" y="-0.38"/>
-<vertex x="-3.52" y="0.24"/>
-<vertex x="-3.53" y="0.29"/>
-<vertex x="-3.74" y="0.29"/>
-<vertex x="-3.81" y="0.29"/>
-<vertex x="-3.86" y="0.33"/>
-<vertex x="-3.86" y="0.4"/>
-<vertex x="-3.85" y="0.46"/>
-<vertex x="-3.89" y="0.68"/>
-</polygon>
-</package>
 <package name="#SCL#SCK#12">
 <polygon width="0.01" layer="21">
 <vertex x="-3.25" y="0.68"/>
@@ -14280,6 +13907,366 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <vertex x="-2.16" y="0.68"/>
 </polygon>
 </package>
+<package name="#TXO#CIPO#9">
+<polygon width="0.01" layer="21">
+<vertex x="-3.94" y="0.68"/>
+<vertex x="-4.21" y="0.68"/>
+<vertex x="-4.22" y="0.62"/>
+<vertex x="-4.22" y="-0.66"/>
+<vertex x="-4.17" y="-0.68"/>
+<vertex x="4.5" y="-0.68"/>
+<vertex x="4.56" y="-0.67"/>
+<vertex x="4.23" y="-0.01"/>
+<vertex x="4.25" y="0.05"/>
+<vertex x="4.55" y="0.66"/>
+<vertex x="4.51" y="0.68"/>
+<vertex x="-3.88" y="0.68"/>
+<vertex x="-3.84" y="0.46"/>
+<vertex x="-3.79" y="0.48"/>
+<vertex x="-3.76" y="0.48"/>
+<vertex x="-3.08" y="0.48"/>
+<vertex x="-3.01" y="0.48"/>
+<vertex x="-2.96" y="0.45"/>
+<vertex x="-2.96" y="0.38"/>
+<vertex x="-2.75" y="0.39"/>
+<vertex x="-2.73" y="0.44"/>
+<vertex x="-2.67" y="0.49"/>
+<vertex x="-2.62" y="0.51"/>
+<vertex x="-2.56" y="0.49"/>
+<vertex x="-2.51" y="0.44"/>
+<vertex x="-2.33" y="0.23"/>
+<vertex x="-2.29" y="0.19"/>
+<vertex x="-2.07" y="0.44"/>
+<vertex x="-2.01" y="0.49"/>
+<vertex x="-1.96" y="0.51"/>
+<vertex x="-1.9" y="0.49"/>
+<vertex x="-1.85" y="0.43"/>
+<vertex x="-1.83" y="0.38"/>
+<vertex x="-1.87" y="0.32"/>
+<vertex x="-2.1" y="0.06"/>
+<vertex x="-2.13" y="0.02"/>
+<vertex x="-1.9" y="-0.23"/>
+<vertex x="-1.86" y="-0.29"/>
+<vertex x="-1.37" y="-0.12"/>
+<vertex x="-1.56" y="-0.21"/>
+<vertex x="-1.59" y="-0.15"/>
+<vertex x="-1.61" y="-0.09"/>
+<vertex x="-1.61" y="-0.02"/>
+<vertex x="-1.61" y="0.05"/>
+<vertex x="-1.6" y="0.12"/>
+<vertex x="-1.59" y="0.18"/>
+<vertex x="-1.56" y="0.25"/>
+<vertex x="-1.53" y="0.31"/>
+<vertex x="-1.49" y="0.36"/>
+<vertex x="-1.44" y="0.4"/>
+<vertex x="-1.38" y="0.44"/>
+<vertex x="-1.32" y="0.47"/>
+<vertex x="-1.26" y="0.49"/>
+<vertex x="-1.19" y="0.5"/>
+<vertex x="-1.08" y="0.5"/>
+<vertex x="-1.02" y="0.48"/>
+<vertex x="-0.96" y="0.46"/>
+<vertex x="-0.9" y="0.43"/>
+<vertex x="-0.84" y="0.39"/>
+<vertex x="-0.79" y="0.34"/>
+<vertex x="-0.75" y="0.28"/>
+<vertex x="-0.72" y="0.23"/>
+<vertex x="-0.69" y="0.16"/>
+<vertex x="-0.68" y="0.1"/>
+<vertex x="-0.67" y="0.03"/>
+<vertex x="-0.68" y="-0.04"/>
+<vertex x="-0.69" y="-0.11"/>
+<vertex x="-0.71" y="-0.17"/>
+<vertex x="-0.45" y="-0.28"/>
+<vertex x="-0.07" y="0.51"/>
+<vertex x="-0.04" y="0.58"/>
+<vertex x="0.01" y="0.62"/>
+<vertex x="0.07" y="0.6"/>
+<vertex x="0.14" y="0.56"/>
+<vertex x="0.16" y="0.51"/>
+<vertex x="0.13" y="0.45"/>
+<vertex x="0.45" y="0.29"/>
+<vertex x="0.49" y="0.34"/>
+<vertex x="0.54" y="0.38"/>
+<vertex x="0.6" y="0.42"/>
+<vertex x="0.66" y="0.46"/>
+<vertex x="0.72" y="0.48"/>
+<vertex x="0.79" y="0.49"/>
+<vertex x="0.85" y="0.5"/>
+<vertex x="0.92" y="0.5"/>
+<vertex x="0.99" y="0.49"/>
+<vertex x="1.06" y="0.46"/>
+<vertex x="1.11" y="0.43"/>
+<vertex x="1.17" y="0.39"/>
+<vertex x="1.19" y="0.34"/>
+<vertex x="1.42" y="0.33"/>
+<vertex x="1.42" y="0.39"/>
+<vertex x="1.43" y="0.45"/>
+<vertex x="1.48" y="0.48"/>
+<vertex x="1.57" y="0.48"/>
+<vertex x="1.63" y="0.45"/>
+<vertex x="1.65" y="0.4"/>
+<vertex x="2.1" y="0.25"/>
+<vertex x="2.23" y="0.25"/>
+<vertex x="2.3" y="0.24"/>
+<vertex x="2.35" y="0.19"/>
+<vertex x="2.36" y="0.12"/>
+<vertex x="2.34" y="0.06"/>
+<vertex x="2.24" y="0.02"/>
+<vertex x="2.11" y="0.02"/>
+<vertex x="2.08" y="0.06"/>
+<vertex x="2.08" y="0.2"/>
+<vertex x="2.1" y="0.25"/>
+<vertex x="1.65" y="0.4"/>
+<vertex x="1.65" y="-0.35"/>
+<vertex x="1.85" y="-0.32"/>
+<vertex x="1.85" y="0.35"/>
+<vertex x="1.85" y="0.42"/>
+<vertex x="1.88" y="0.47"/>
+<vertex x="1.96" y="0.48"/>
+<vertex x="2.23" y="0.48"/>
+<vertex x="2.3" y="0.48"/>
+<vertex x="2.36" y="0.46"/>
+<vertex x="2.42" y="0.43"/>
+<vertex x="2.48" y="0.39"/>
+<vertex x="2.52" y="0.34"/>
+<vertex x="2.56" y="0.28"/>
+<vertex x="2.59" y="0.22"/>
+<vertex x="2.59" y="0.21"/>
+<vertex x="2.59" y="0.14"/>
+<vertex x="2.59" y="0.08"/>
+<vertex x="2.78" y="0.05"/>
+<vertex x="2.78" y="0.12"/>
+<vertex x="2.8" y="0.18"/>
+<vertex x="2.83" y="0.25"/>
+<vertex x="2.86" y="0.31"/>
+<vertex x="2.9" y="0.36"/>
+<vertex x="2.96" y="0.4"/>
+<vertex x="3.01" y="0.44"/>
+<vertex x="3.07" y="0.47"/>
+<vertex x="3.13" y="0.49"/>
+<vertex x="3.2" y="0.5"/>
+<vertex x="3.24" y="0.5"/>
+<vertex x="3.31" y="0.5"/>
+<vertex x="3.37" y="0.48"/>
+<vertex x="3.44" y="0.46"/>
+<vertex x="3.49" y="0.43"/>
+<vertex x="3.55" y="0.38"/>
+<vertex x="3.6" y="0.33"/>
+<vertex x="3.64" y="0.28"/>
+<vertex x="3.67" y="0.22"/>
+<vertex x="3.7" y="0.16"/>
+<vertex x="3.71" y="0.1"/>
+<vertex x="3.72" y="0.03"/>
+<vertex x="3.71" y="-0.04"/>
+<vertex x="3.7" y="-0.11"/>
+<vertex x="3.68" y="-0.17"/>
+<vertex x="3.65" y="-0.23"/>
+<vertex x="3.61" y="-0.29"/>
+<vertex x="3.57" y="-0.34"/>
+<vertex x="3.52" y="-0.39"/>
+<vertex x="3.46" y="-0.42"/>
+<vertex x="3.4" y="-0.45"/>
+<vertex x="3.33" y="-0.47"/>
+<vertex x="3.27" y="-0.47"/>
+<vertex x="3.2" y="-0.47"/>
+<vertex x="3.13" y="-0.46"/>
+<vertex x="3.07" y="-0.44"/>
+<vertex x="3.01" y="-0.41"/>
+<vertex x="2.95" y="-0.37"/>
+<vertex x="2.9" y="-0.32"/>
+<vertex x="2.86" y="-0.27"/>
+<vertex x="2.82" y="-0.21"/>
+<vertex x="2.8" y="-0.15"/>
+<vertex x="2.78" y="-0.09"/>
+<vertex x="2.77" y="-0.02"/>
+<vertex x="2.78" y="0.05"/>
+<vertex x="2.59" y="0.07"/>
+<vertex x="3" y="0.03"/>
+<vertex x="3.02" y="0.1"/>
+<vertex x="3.04" y="0.16"/>
+<vertex x="3.09" y="0.21"/>
+<vertex x="3.14" y="0.25"/>
+<vertex x="3.21" y="0.27"/>
+<vertex x="3.27" y="0.27"/>
+<vertex x="3.33" y="0.25"/>
+<vertex x="3.39" y="0.22"/>
+<vertex x="3.44" y="0.17"/>
+<vertex x="3.47" y="0.11"/>
+<vertex x="3.48" y="0.04"/>
+<vertex x="3.48" y="-0.03"/>
+<vertex x="3.46" y="-0.1"/>
+<vertex x="3.43" y="-0.15"/>
+<vertex x="3.38" y="-0.2"/>
+<vertex x="3.32" y="-0.23"/>
+<vertex x="3.26" y="-0.24"/>
+<vertex x="3.19" y="-0.24"/>
+<vertex x="3.13" y="-0.21"/>
+<vertex x="3.07" y="-0.17"/>
+<vertex x="3.03" y="-0.12"/>
+<vertex x="3" y="-0.04"/>
+<vertex x="3" y="0.03"/>
+<vertex x="2.59" y="0.07"/>
+<vertex x="2.57" y="0.01"/>
+<vertex x="2.54" y="-0.05"/>
+<vertex x="2.5" y="-0.1"/>
+<vertex x="2.44" y="-0.15"/>
+<vertex x="2.38" y="-0.18"/>
+<vertex x="2.32" y="-0.2"/>
+<vertex x="2.25" y="-0.21"/>
+<vertex x="2.12" y="-0.21"/>
+<vertex x="2.08" y="-0.24"/>
+<vertex x="2.08" y="-0.38"/>
+<vertex x="2.07" y="-0.44"/>
+<vertex x="2.02" y="-0.47"/>
+<vertex x="1.93" y="-0.47"/>
+<vertex x="1.87" y="-0.45"/>
+<vertex x="1.85" y="-0.4"/>
+<vertex x="1.85" y="-0.33"/>
+<vertex x="1.65" y="-0.35"/>
+<vertex x="1.64" y="-0.42"/>
+<vertex x="1.61" y="-0.46"/>
+<vertex x="1.53" y="-0.47"/>
+<vertex x="1.45" y="-0.46"/>
+<vertex x="1.42" y="-0.42"/>
+<vertex x="1.42" y="-0.35"/>
+<vertex x="1.42" y="0.33"/>
+<vertex x="1.2" y="0.34"/>
+<vertex x="1.17" y="0.27"/>
+<vertex x="1.12" y="0.21"/>
+<vertex x="1.07" y="0.2"/>
+<vertex x="0.95" y="0.26"/>
+<vertex x="0.88" y="0.27"/>
+<vertex x="0.82" y="0.27"/>
+<vertex x="0.75" y="0.25"/>
+<vertex x="0.69" y="0.21"/>
+<vertex x="0.65" y="0.16"/>
+<vertex x="0.62" y="0.1"/>
+<vertex x="0.61" y="0.03"/>
+<vertex x="0.61" y="-0.04"/>
+<vertex x="0.63" y="-0.1"/>
+<vertex x="0.67" y="-0.16"/>
+<vertex x="0.72" y="-0.2"/>
+<vertex x="0.78" y="-0.23"/>
+<vertex x="0.85" y="-0.24"/>
+<vertex x="0.91" y="-0.24"/>
+<vertex x="0.98" y="-0.22"/>
+<vertex x="1.02" y="-0.19"/>
+<vertex x="1.08" y="-0.17"/>
+<vertex x="1.13" y="-0.2"/>
+<vertex x="1.18" y="-0.27"/>
+<vertex x="1.19" y="-0.33"/>
+<vertex x="1.15" y="-0.38"/>
+<vertex x="1.09" y="-0.42"/>
+<vertex x="1.04" y="-0.44"/>
+<vertex x="0.96" y="-0.46"/>
+<vertex x="0.9" y="-0.47"/>
+<vertex x="0.83" y="-0.47"/>
+<vertex x="0.76" y="-0.46"/>
+<vertex x="0.7" y="-0.44"/>
+<vertex x="0.64" y="-0.41"/>
+<vertex x="0.58" y="-0.38"/>
+<vertex x="0.53" y="-0.34"/>
+<vertex x="0.48" y="-0.29"/>
+<vertex x="0.44" y="-0.23"/>
+<vertex x="0.41" y="-0.17"/>
+<vertex x="0.39" y="-0.11"/>
+<vertex x="0.38" y="-0.04"/>
+<vertex x="0.38" y="0.03"/>
+<vertex x="0.38" y="0.1"/>
+<vertex x="0.4" y="0.16"/>
+<vertex x="0.42" y="0.23"/>
+<vertex x="0.45" y="0.29"/>
+<vertex x="0.13" y="0.44"/>
+<vertex x="-0.27" y="-0.41"/>
+<vertex x="-0.3" y="-0.45"/>
+<vertex x="-0.36" y="-0.47"/>
+<vertex x="-0.43" y="-0.45"/>
+<vertex x="-0.48" y="-0.41"/>
+<vertex x="-0.48" y="-0.35"/>
+<vertex x="-0.45" y="-0.28"/>
+<vertex x="-0.71" y="-0.17"/>
+<vertex x="-0.74" y="-0.23"/>
+<vertex x="-0.78" y="-0.29"/>
+<vertex x="-0.82" y="-0.34"/>
+<vertex x="-0.87" y="-0.39"/>
+<vertex x="-0.93" y="-0.42"/>
+<vertex x="-0.99" y="-0.45"/>
+<vertex x="-1.05" y="-0.47"/>
+<vertex x="-1.12" y="-0.47"/>
+<vertex x="-1.19" y="-0.47"/>
+<vertex x="-1.26" y="-0.46"/>
+<vertex x="-1.32" y="-0.44"/>
+<vertex x="-1.38" y="-0.41"/>
+<vertex x="-1.43" y="-0.37"/>
+<vertex x="-1.49" y="-0.32"/>
+<vertex x="-1.53" y="-0.27"/>
+<vertex x="-1.56" y="-0.21"/>
+<vertex x="-1.37" y="-0.12"/>
+<vertex x="-1.39" y="-0.04"/>
+<vertex x="-1.38" y="0.03"/>
+<vertex x="-1.37" y="0.1"/>
+<vertex x="-1.35" y="0.16"/>
+<vertex x="-1.3" y="0.21"/>
+<vertex x="-1.24" y="0.25"/>
+<vertex x="-1.18" y="0.27"/>
+<vertex x="-1.12" y="0.27"/>
+<vertex x="-1.05" y="0.25"/>
+<vertex x="-0.99" y="0.21"/>
+<vertex x="-0.95" y="0.16"/>
+<vertex x="-0.92" y="0.11"/>
+<vertex x="-0.91" y="0.04"/>
+<vertex x="-0.91" y="-0.04"/>
+<vertex x="-0.93" y="-0.1"/>
+<vertex x="-0.96" y="-0.16"/>
+<vertex x="-1.01" y="-0.2"/>
+<vertex x="-1.07" y="-0.23"/>
+<vertex x="-1.13" y="-0.24"/>
+<vertex x="-1.2" y="-0.24"/>
+<vertex x="-1.26" y="-0.21"/>
+<vertex x="-1.32" y="-0.17"/>
+<vertex x="-1.36" y="-0.12"/>
+<vertex x="-1.85" y="-0.29"/>
+<vertex x="-1.83" y="-0.34"/>
+<vertex x="-1.85" y="-0.4"/>
+<vertex x="-1.91" y="-0.46"/>
+<vertex x="-1.97" y="-0.47"/>
+<vertex x="-2.02" y="-0.44"/>
+<vertex x="-2.25" y="-0.18"/>
+<vertex x="-2.29" y="-0.14"/>
+<vertex x="-2.51" y="-0.39"/>
+<vertex x="-2.57" y="-0.45"/>
+<vertex x="-2.62" y="-0.47"/>
+<vertex x="-2.67" y="-0.45"/>
+<vertex x="-2.73" y="-0.39"/>
+<vertex x="-2.75" y="-0.34"/>
+<vertex x="-2.72" y="-0.29"/>
+<vertex x="-2.49" y="-0.03"/>
+<vertex x="-2.45" y="0.02"/>
+<vertex x="-2.72" y="0.33"/>
+<vertex x="-2.75" y="0.39"/>
+<vertex x="-2.96" y="0.38"/>
+<vertex x="-2.97" y="0.31"/>
+<vertex x="-3.03" y="0.29"/>
+<vertex x="-3.23" y="0.29"/>
+<vertex x="-3.3" y="0.28"/>
+<vertex x="-3.3" y="-0.33"/>
+<vertex x="-3.3" y="-0.4"/>
+<vertex x="-3.32" y="-0.45"/>
+<vertex x="-3.38" y="-0.47"/>
+<vertex x="-3.46" y="-0.47"/>
+<vertex x="-3.51" y="-0.44"/>
+<vertex x="-3.52" y="-0.38"/>
+<vertex x="-3.52" y="0.24"/>
+<vertex x="-3.53" y="0.29"/>
+<vertex x="-3.74" y="0.29"/>
+<vertex x="-3.81" y="0.29"/>
+<vertex x="-3.86" y="0.33"/>
+<vertex x="-3.86" y="0.4"/>
+<vertex x="-3.85" y="0.46"/>
+<vertex x="-3.89" y="0.68"/>
+</polygon>
+</package>
 </packages>
 </library>
 <library name="f9k">
@@ -15042,7 +15029,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$25" library="silk" package="#GND#0" value="" x="39.17" y="36.79" smashed="yes" rot="MR0"/>
 <element name="U$27" library="silkbot" package="#SDA##CS##10" value="" x="37.81" y="29.18" smashed="yes" rot="MR0"/>
 <element name="U$28" library="silkbot" package="#RXI#COPI#8" value="" x="37.3" y="26.69" smashed="yes" rot="MR0"/>
-<element name="U$29" library="silkbot" package="#TXO#COPI#9" value="" x="36.88" y="24.08" smashed="yes" rot="MR0"/>
 <element name="U$30" library="silkbot" package="#SCL#SCK#12" value="" x="37.6" y="21.56" smashed="yes" rot="MR0"/>
 <element name="U$31" library="silkbot" package="#D##6" value="" x="39.82" y="16.46" smashed="yes" rot="MR0"/>
 <element name="U$33" library="silkbot" package="#D##7" value="" x="39.83" y="19.02" smashed="yes" rot="MR0"/>
@@ -15085,6 +15071,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="TP1" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="29.21" y="43.18" smashed="yes" rot="MR0"/>
 <element name="U$71" library="silk" package="#PPS#20" value="" x="3.81" y="16.383" smashed="yes"/>
+<element name="U$74" library="silkbot" package="#TXO#CIPO#9" value="" x="36.957" y="24.13" smashed="yes" rot="MR0"/>
 <element name="J1" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="48.768" y="41.91" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.609" y="43.307" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-13694" x="48.768" y="41.91" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -15385,7 +15372,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="R48" library="SparkFun-Resistors" package="1206_RA" value="33" x="79.121" y="22.225" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="RES-15081" x="79.121" y="22.225" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$74" library="Dead#Reckoning#GPS#board#silk#FINAL#png" package="DEAD#RECKONING#GPS#BOARD#SILK#FINAL#JPG" value="" x="66.508" y="19.26" smashed="yes" rot="MR0"/>
+<element name="U$29" library="Dead#Reckoning#GPS#board#silk#FINAL#png" package="DEAD#RECKONING#GPS#BOARD#SILK#FINAL#JPG" value="" x="66.508" y="19.26" smashed="yes" rot="MR0"/>
 <element name="U$75" library="Dead#Reckoning#GPS#board#silk#FINALSMALL" package="DEAD#RECKONING#GPS#BOARD#SILK#FINAL#JPG" value="" x="47.557" y="9.752" smashed="yes" rot="R270"/>
 <element name="U$76" library="Orientation" package="X1" value="" x="52.421" y="10.975" smashed="yes"/>
 <element name="U$77" library="Orientation" package="Y2" value="" x="56.358" y="14.404" smashed="yes"/>
@@ -15436,37 +15423,36 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$112" library="silk" package="#GND#0" value="" x="82.858" y="36.79" smashed="yes" rot="MR0"/>
 <element name="U$113" library="silkbot" package="#SDA##CS##10" value="" x="81.498" y="29.18" smashed="yes" rot="MR0"/>
 <element name="U$114" library="silkbot" package="#RXI#COPI#8" value="" x="80.988" y="26.69" smashed="yes" rot="MR0"/>
-<element name="U$115" library="silkbot" package="#TXO#COPI#9" value="" x="80.568" y="24.08" smashed="yes" rot="MR0"/>
-<element name="U$116" library="silkbot" package="#SCL#SCK#12" value="" x="81.288" y="21.56" smashed="yes" rot="MR0"/>
-<element name="U$117" library="silkbot" package="#D##6" value="" x="83.508" y="16.46" smashed="yes" rot="MR0"/>
-<element name="U$118" library="silkbot" package="#D##7" value="" x="83.518" y="19.02" smashed="yes" rot="MR0"/>
-<element name="U$119" library="silkbot" package="#W##4" value="" x="83.338" y="11.41" smashed="yes" rot="MR0"/>
-<element name="U$120" library="silkbot" package="#W##5" value="" x="83.398" y="13.94" smashed="yes" rot="MR0"/>
-<element name="U$121" library="silk" package="#GND#0" value="" x="47.658" y="36.77" smashed="yes" rot="MR0"/>
-<element name="U$122" library="silk" package="#3V3#6" value="" x="47.558" y="34.24" smashed="yes" rot="MR0"/>
-<element name="U$123" library="silk" package="#SDA#6" value="" x="47.658" y="31.75" smashed="yes" rot="MR0"/>
-<element name="U$124" library="silk" package="#SCL#7" value="" x="47.488" y="29.18" smashed="yes" rot="MR0"/>
-<element name="U$125" library="silkbot" package="#TXR#3" value="" x="47.698" y="26.63" smashed="yes" rot="MR0"/>
-<element name="U$126" library="silkbot" package="##RST##16" value="" x="47.598" y="24.15" smashed="yes" rot="MR0"/>
-<element name="U$127" library="silkbot" package="##SFBT##17" value="" x="48.038" y="21.57" smashed="yes" rot="MR0"/>
-<element name="U$128" library="silk" package="#INT#8" value="" x="47.428" y="18.96" smashed="yes" rot="MR0"/>
-<element name="U$129" library="silkbot" package="#PPS#0" value="" x="47.538" y="16.41" smashed="yes" rot="MR0"/>
-<element name="U$130" library="silk" package="#RTK#25" value="" x="79.718" y="3.17" smashed="yes" rot="MR0"/>
-<element name="U$131" library="silk" package="#GEO#24" value="" x="75.788" y="3.12" smashed="yes" rot="MR0"/>
-<element name="U$132" library="silk" package="#PPS#21" value="" x="72.108" y="3.13" smashed="yes" rot="MR0"/>
-<element name="U$133" library="silk" package="#PWR#23" value="" x="68.288" y="3.17" smashed="yes" rot="MR0"/>
-<element name="U$134" library="silk" package="#SPI#22" value="" x="54.688" y="27.19" smashed="yes" rot="MR90"/>
-<element name="U$135" library="silk" package="#I2C#23" value="" x="54.948" y="33.37" smashed="yes" rot="MR90"/>
-<element name="U$136" library="silk" package="#RXI2#227" value="" x="72.908" y="46.63" smashed="yes" rot="MR90"/>
-<element name="U$137" library="silkbot" package="#TXO2#1" value="" x="75.388" y="46.32" smashed="yes" rot="MR90"/>
-<element name="U$138" library="silk" package="#GND#0" value="" x="65.228" y="46.75" smashed="yes" rot="MR90"/>
-<element name="U$139" library="silk" package="BLK227" value="" x="63.197" y="49.51" smashed="yes" rot="MR0"/>
-<element name="U$140" library="silk" package="GRN228" value="" x="80.15" y="49.503" smashed="yes" rot="MR0"/>
-<element name="U$141" library="silk" package="GNSS#DEAD_RECKONING230" value="" x="65.828" y="11.06" smashed="yes" rot="MR0"/>
-<element name="U$142" library="silk" package="ZED#F9K230" value="" x="67.178" y="8.67" smashed="yes" rot="MR0"/>
-<element name="U$143" library="silk" package="L1#L2229" value="" x="63.848" y="3.05" smashed="yes" rot="R270"/>
-<element name="U$144" library="silk" package="ANTENNA229" value="" x="62.578" y="3.83" smashed="yes" rot="R270"/>
-<element name="U$145" library="silk" package="ZED#F9K230" value="" x="51.448" y="10" smashed="yes" rot="R270"/>
+<element name="U$115" library="silkbot" package="#SCL#SCK#12" value="" x="81.288" y="21.56" smashed="yes" rot="MR0"/>
+<element name="U$116" library="silkbot" package="#D##6" value="" x="83.508" y="16.46" smashed="yes" rot="MR0"/>
+<element name="U$117" library="silkbot" package="#D##7" value="" x="83.518" y="19.02" smashed="yes" rot="MR0"/>
+<element name="U$118" library="silkbot" package="#W##4" value="" x="83.338" y="11.41" smashed="yes" rot="MR0"/>
+<element name="U$119" library="silkbot" package="#W##5" value="" x="83.398" y="13.94" smashed="yes" rot="MR0"/>
+<element name="U$120" library="silk" package="#GND#0" value="" x="47.658" y="36.77" smashed="yes" rot="MR0"/>
+<element name="U$121" library="silk" package="#3V3#6" value="" x="47.558" y="34.24" smashed="yes" rot="MR0"/>
+<element name="U$122" library="silk" package="#SDA#6" value="" x="47.658" y="31.75" smashed="yes" rot="MR0"/>
+<element name="U$123" library="silk" package="#SCL#7" value="" x="47.488" y="29.18" smashed="yes" rot="MR0"/>
+<element name="U$124" library="silkbot" package="#TXR#3" value="" x="47.698" y="26.63" smashed="yes" rot="MR0"/>
+<element name="U$125" library="silkbot" package="##RST##16" value="" x="47.598" y="24.15" smashed="yes" rot="MR0"/>
+<element name="U$126" library="silkbot" package="##SFBT##17" value="" x="48.038" y="21.57" smashed="yes" rot="MR0"/>
+<element name="U$127" library="silk" package="#INT#8" value="" x="47.428" y="18.96" smashed="yes" rot="MR0"/>
+<element name="U$128" library="silkbot" package="#PPS#0" value="" x="47.538" y="16.41" smashed="yes" rot="MR0"/>
+<element name="U$129" library="silk" package="#RTK#25" value="" x="79.718" y="3.17" smashed="yes" rot="MR0"/>
+<element name="U$130" library="silk" package="#GEO#24" value="" x="75.788" y="3.12" smashed="yes" rot="MR0"/>
+<element name="U$131" library="silk" package="#PPS#21" value="" x="72.108" y="3.13" smashed="yes" rot="MR0"/>
+<element name="U$132" library="silk" package="#PWR#23" value="" x="68.288" y="3.17" smashed="yes" rot="MR0"/>
+<element name="U$133" library="silk" package="#SPI#22" value="" x="54.688" y="27.19" smashed="yes" rot="MR90"/>
+<element name="U$134" library="silk" package="#I2C#23" value="" x="54.948" y="33.37" smashed="yes" rot="MR90"/>
+<element name="U$135" library="silk" package="#RXI2#227" value="" x="72.908" y="46.63" smashed="yes" rot="MR90"/>
+<element name="U$136" library="silkbot" package="#TXO2#1" value="" x="75.388" y="46.32" smashed="yes" rot="MR90"/>
+<element name="U$137" library="silk" package="#GND#0" value="" x="65.228" y="46.75" smashed="yes" rot="MR90"/>
+<element name="U$138" library="silk" package="BLK227" value="" x="63.197" y="49.51" smashed="yes" rot="MR0"/>
+<element name="U$139" library="silk" package="GRN228" value="" x="80.15" y="49.503" smashed="yes" rot="MR0"/>
+<element name="U$140" library="silk" package="GNSS#DEAD_RECKONING230" value="" x="65.828" y="11.06" smashed="yes" rot="MR0"/>
+<element name="U$141" library="silk" package="ZED#F9K230" value="" x="67.178" y="8.67" smashed="yes" rot="MR0"/>
+<element name="U$142" library="silk" package="L1#L2229" value="" x="63.848" y="3.05" smashed="yes" rot="R270"/>
+<element name="U$143" library="silk" package="ANTENNA229" value="" x="62.578" y="3.83" smashed="yes" rot="R270"/>
+<element name="U$144" library="silk" package="ZED#F9K230" value="" x="51.448" y="10" smashed="yes" rot="R270"/>
 <element name="U9" library="SparkFun-IC-Amplifiers" package="SIP6" value="UHS_INVERTER_SCHMITT_TRIGGERSIP6" x="67.8848" y="10.941" smashed="yes">
 <attribute name="NAME" x="64.0828" y="13.47533125" size="1.27" layer="25"/>
 <attribute name="PROD_ID" value="IC-15068" x="67.8848" y="10.941" size="1.778" layer="27" display="off"/>
@@ -15478,7 +15464,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="75.65333125" y="9.66" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="TP2" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="72.898" y="43.18" smashed="yes" rot="MR0"/>
-<element name="U$146" library="silk" package="#PPS#20" value="" x="47.498" y="16.383" smashed="yes"/>
+<element name="U$145" library="silk" package="#PPS#20" value="" x="47.498" y="16.383" smashed="yes"/>
+<element name="U$146" library="silkbot" package="#TXO#CIPO#9" value="" x="80.645" y="24.13" smashed="yes" rot="MR0"/>
 <element name="J13" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="5.08" y="97.79" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.921" y="99.187" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-13694" x="5.08" y="97.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -15830,37 +15817,36 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$185" library="silk" package="#GND#0" value="" x="39.17" y="92.67" smashed="yes" rot="MR0"/>
 <element name="U$186" library="silkbot" package="#SDA##CS##10" value="" x="37.81" y="85.06" smashed="yes" rot="MR0"/>
 <element name="U$187" library="silkbot" package="#RXI#COPI#8" value="" x="37.3" y="82.57" smashed="yes" rot="MR0"/>
-<element name="U$188" library="silkbot" package="#TXO#COPI#9" value="" x="36.88" y="79.96" smashed="yes" rot="MR0"/>
-<element name="U$189" library="silkbot" package="#SCL#SCK#12" value="" x="37.6" y="77.44" smashed="yes" rot="MR0"/>
-<element name="U$190" library="silkbot" package="#D##6" value="" x="39.82" y="72.34" smashed="yes" rot="MR0"/>
-<element name="U$191" library="silkbot" package="#D##7" value="" x="39.83" y="74.9" smashed="yes" rot="MR0"/>
-<element name="U$192" library="silkbot" package="#W##4" value="" x="39.65" y="67.29" smashed="yes" rot="MR0"/>
-<element name="U$193" library="silkbot" package="#W##5" value="" x="39.71" y="69.82" smashed="yes" rot="MR0"/>
-<element name="U$194" library="silk" package="#GND#0" value="" x="3.97" y="92.65" smashed="yes" rot="MR0"/>
-<element name="U$195" library="silk" package="#3V3#6" value="" x="3.87" y="90.12" smashed="yes" rot="MR0"/>
-<element name="U$196" library="silk" package="#SDA#6" value="" x="3.97" y="87.63" smashed="yes" rot="MR0"/>
-<element name="U$197" library="silk" package="#SCL#7" value="" x="3.8" y="85.06" smashed="yes" rot="MR0"/>
-<element name="U$198" library="silkbot" package="#TXR#3" value="" x="4.01" y="82.51" smashed="yes" rot="MR0"/>
-<element name="U$199" library="silkbot" package="##RST##16" value="" x="3.91" y="80.03" smashed="yes" rot="MR0"/>
-<element name="U$200" library="silkbot" package="##SFBT##17" value="" x="4.35" y="77.45" smashed="yes" rot="MR0"/>
-<element name="U$201" library="silk" package="#INT#8" value="" x="3.74" y="74.84" smashed="yes" rot="MR0"/>
-<element name="U$202" library="silkbot" package="#PPS#0" value="" x="3.85" y="72.29" smashed="yes" rot="MR0"/>
-<element name="U$203" library="silk" package="#RTK#25" value="" x="36.03" y="59.05" smashed="yes" rot="MR0"/>
-<element name="U$204" library="silk" package="#GEO#24" value="" x="32.1" y="59" smashed="yes" rot="MR0"/>
-<element name="U$205" library="silk" package="#PPS#21" value="" x="28.42" y="59.01" smashed="yes" rot="MR0"/>
-<element name="U$206" library="silk" package="#PWR#23" value="" x="24.6" y="59.05" smashed="yes" rot="MR0"/>
-<element name="U$207" library="silk" package="#SPI#22" value="" x="11" y="83.07" smashed="yes" rot="MR90"/>
-<element name="U$208" library="silk" package="#I2C#23" value="" x="11.26" y="89.25" smashed="yes" rot="MR90"/>
-<element name="U$209" library="silk" package="#RXI2#227" value="" x="29.22" y="102.51" smashed="yes" rot="MR90"/>
-<element name="U$210" library="silkbot" package="#TXO2#1" value="" x="31.7" y="102.2" smashed="yes" rot="MR90"/>
-<element name="U$211" library="silk" package="#GND#0" value="" x="21.54" y="102.63" smashed="yes" rot="MR90"/>
-<element name="U$212" library="silk" package="BLK227" value="" x="19.509" y="105.39" smashed="yes" rot="MR0"/>
-<element name="U$213" library="silk" package="GRN228" value="" x="36.462" y="105.383" smashed="yes" rot="MR0"/>
-<element name="U$214" library="silk" package="GNSS#DEAD_RECKONING230" value="" x="22.14" y="66.94" smashed="yes" rot="MR0"/>
-<element name="U$215" library="silk" package="ZED#F9K230" value="" x="23.49" y="64.55" smashed="yes" rot="MR0"/>
-<element name="U$216" library="silk" package="L1#L2229" value="" x="20.16" y="58.93" smashed="yes" rot="R270"/>
-<element name="U$217" library="silk" package="ANTENNA229" value="" x="18.89" y="59.71" smashed="yes" rot="R270"/>
-<element name="U$218" library="silk" package="ZED#F9K230" value="" x="7.76" y="65.88" smashed="yes" rot="R270"/>
+<element name="U$188" library="silkbot" package="#SCL#SCK#12" value="" x="37.6" y="77.44" smashed="yes" rot="MR0"/>
+<element name="U$189" library="silkbot" package="#D##6" value="" x="39.82" y="72.34" smashed="yes" rot="MR0"/>
+<element name="U$190" library="silkbot" package="#D##7" value="" x="39.83" y="74.9" smashed="yes" rot="MR0"/>
+<element name="U$191" library="silkbot" package="#W##4" value="" x="39.65" y="67.29" smashed="yes" rot="MR0"/>
+<element name="U$192" library="silkbot" package="#W##5" value="" x="39.71" y="69.82" smashed="yes" rot="MR0"/>
+<element name="U$193" library="silk" package="#GND#0" value="" x="3.97" y="92.65" smashed="yes" rot="MR0"/>
+<element name="U$194" library="silk" package="#3V3#6" value="" x="3.87" y="90.12" smashed="yes" rot="MR0"/>
+<element name="U$195" library="silk" package="#SDA#6" value="" x="3.97" y="87.63" smashed="yes" rot="MR0"/>
+<element name="U$196" library="silk" package="#SCL#7" value="" x="3.8" y="85.06" smashed="yes" rot="MR0"/>
+<element name="U$197" library="silkbot" package="#TXR#3" value="" x="4.01" y="82.51" smashed="yes" rot="MR0"/>
+<element name="U$198" library="silkbot" package="##RST##16" value="" x="3.91" y="80.03" smashed="yes" rot="MR0"/>
+<element name="U$199" library="silkbot" package="##SFBT##17" value="" x="4.35" y="77.45" smashed="yes" rot="MR0"/>
+<element name="U$200" library="silk" package="#INT#8" value="" x="3.74" y="74.84" smashed="yes" rot="MR0"/>
+<element name="U$201" library="silkbot" package="#PPS#0" value="" x="3.85" y="72.29" smashed="yes" rot="MR0"/>
+<element name="U$202" library="silk" package="#RTK#25" value="" x="36.03" y="59.05" smashed="yes" rot="MR0"/>
+<element name="U$203" library="silk" package="#GEO#24" value="" x="32.1" y="59" smashed="yes" rot="MR0"/>
+<element name="U$204" library="silk" package="#PPS#21" value="" x="28.42" y="59.01" smashed="yes" rot="MR0"/>
+<element name="U$205" library="silk" package="#PWR#23" value="" x="24.6" y="59.05" smashed="yes" rot="MR0"/>
+<element name="U$206" library="silk" package="#SPI#22" value="" x="11" y="83.07" smashed="yes" rot="MR90"/>
+<element name="U$207" library="silk" package="#I2C#23" value="" x="11.26" y="89.25" smashed="yes" rot="MR90"/>
+<element name="U$208" library="silk" package="#RXI2#227" value="" x="29.22" y="102.51" smashed="yes" rot="MR90"/>
+<element name="U$209" library="silkbot" package="#TXO2#1" value="" x="31.7" y="102.2" smashed="yes" rot="MR90"/>
+<element name="U$210" library="silk" package="#GND#0" value="" x="21.54" y="102.63" smashed="yes" rot="MR90"/>
+<element name="U$211" library="silk" package="BLK227" value="" x="19.509" y="105.39" smashed="yes" rot="MR0"/>
+<element name="U$212" library="silk" package="GRN228" value="" x="36.462" y="105.383" smashed="yes" rot="MR0"/>
+<element name="U$213" library="silk" package="GNSS#DEAD_RECKONING230" value="" x="22.14" y="66.94" smashed="yes" rot="MR0"/>
+<element name="U$214" library="silk" package="ZED#F9K230" value="" x="23.49" y="64.55" smashed="yes" rot="MR0"/>
+<element name="U$215" library="silk" package="L1#L2229" value="" x="20.16" y="58.93" smashed="yes" rot="R270"/>
+<element name="U$216" library="silk" package="ANTENNA229" value="" x="18.89" y="59.71" smashed="yes" rot="R270"/>
+<element name="U$217" library="silk" package="ZED#F9K230" value="" x="7.76" y="65.88" smashed="yes" rot="R270"/>
 <element name="U14" library="SparkFun-IC-Amplifiers" package="SIP6" value="UHS_INVERTER_SCHMITT_TRIGGERSIP6" x="24.1968" y="66.821" smashed="yes">
 <attribute name="NAME" x="20.3948" y="69.35533125" size="1.27" layer="25"/>
 <attribute name="PROD_ID" value="IC-15068" x="24.1968" y="66.821" size="1.778" layer="27" display="off"/>
@@ -15872,7 +15858,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="31.96533125" y="65.54" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="TP3" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="29.21" y="99.06" smashed="yes" rot="MR0"/>
-<element name="U$219" library="silk" package="#PPS#20" value="" x="3.81" y="72.263" smashed="yes"/>
+<element name="U$218" library="silk" package="#PPS#20" value="" x="3.81" y="72.263" smashed="yes"/>
+<element name="U$219" library="silkbot" package="#TXO#CIPO#9" value="" x="36.957" y="80.01" smashed="yes" rot="MR0"/>
 <element name="J19" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="48.768" y="97.79" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.609" y="99.187" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-13694" x="48.768" y="97.79" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -16224,37 +16211,36 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$258" library="silk" package="#GND#0" value="" x="82.858" y="92.67" smashed="yes" rot="MR0"/>
 <element name="U$259" library="silkbot" package="#SDA##CS##10" value="" x="81.498" y="85.06" smashed="yes" rot="MR0"/>
 <element name="U$260" library="silkbot" package="#RXI#COPI#8" value="" x="80.988" y="82.57" smashed="yes" rot="MR0"/>
-<element name="U$261" library="silkbot" package="#TXO#COPI#9" value="" x="80.568" y="79.96" smashed="yes" rot="MR0"/>
-<element name="U$262" library="silkbot" package="#SCL#SCK#12" value="" x="81.288" y="77.44" smashed="yes" rot="MR0"/>
-<element name="U$263" library="silkbot" package="#D##6" value="" x="83.508" y="72.34" smashed="yes" rot="MR0"/>
-<element name="U$264" library="silkbot" package="#D##7" value="" x="83.518" y="74.9" smashed="yes" rot="MR0"/>
-<element name="U$265" library="silkbot" package="#W##4" value="" x="83.338" y="67.29" smashed="yes" rot="MR0"/>
-<element name="U$266" library="silkbot" package="#W##5" value="" x="83.398" y="69.82" smashed="yes" rot="MR0"/>
-<element name="U$267" library="silk" package="#GND#0" value="" x="47.658" y="92.65" smashed="yes" rot="MR0"/>
-<element name="U$268" library="silk" package="#3V3#6" value="" x="47.558" y="90.12" smashed="yes" rot="MR0"/>
-<element name="U$269" library="silk" package="#SDA#6" value="" x="47.658" y="87.63" smashed="yes" rot="MR0"/>
-<element name="U$270" library="silk" package="#SCL#7" value="" x="47.488" y="85.06" smashed="yes" rot="MR0"/>
-<element name="U$271" library="silkbot" package="#TXR#3" value="" x="47.698" y="82.51" smashed="yes" rot="MR0"/>
-<element name="U$272" library="silkbot" package="##RST##16" value="" x="47.598" y="80.03" smashed="yes" rot="MR0"/>
-<element name="U$273" library="silkbot" package="##SFBT##17" value="" x="48.038" y="77.45" smashed="yes" rot="MR0"/>
-<element name="U$274" library="silk" package="#INT#8" value="" x="47.428" y="74.84" smashed="yes" rot="MR0"/>
-<element name="U$275" library="silkbot" package="#PPS#0" value="" x="47.538" y="72.29" smashed="yes" rot="MR0"/>
-<element name="U$276" library="silk" package="#RTK#25" value="" x="79.718" y="59.05" smashed="yes" rot="MR0"/>
-<element name="U$277" library="silk" package="#GEO#24" value="" x="75.788" y="59" smashed="yes" rot="MR0"/>
-<element name="U$278" library="silk" package="#PPS#21" value="" x="72.108" y="59.01" smashed="yes" rot="MR0"/>
-<element name="U$279" library="silk" package="#PWR#23" value="" x="68.288" y="59.05" smashed="yes" rot="MR0"/>
-<element name="U$280" library="silk" package="#SPI#22" value="" x="54.688" y="83.07" smashed="yes" rot="MR90"/>
-<element name="U$281" library="silk" package="#I2C#23" value="" x="54.948" y="89.25" smashed="yes" rot="MR90"/>
-<element name="U$282" library="silk" package="#RXI2#227" value="" x="72.908" y="102.51" smashed="yes" rot="MR90"/>
-<element name="U$283" library="silkbot" package="#TXO2#1" value="" x="75.388" y="102.2" smashed="yes" rot="MR90"/>
-<element name="U$284" library="silk" package="#GND#0" value="" x="65.228" y="102.63" smashed="yes" rot="MR90"/>
-<element name="U$285" library="silk" package="BLK227" value="" x="63.197" y="105.39" smashed="yes" rot="MR0"/>
-<element name="U$286" library="silk" package="GRN228" value="" x="80.15" y="105.383" smashed="yes" rot="MR0"/>
-<element name="U$287" library="silk" package="GNSS#DEAD_RECKONING230" value="" x="65.828" y="66.94" smashed="yes" rot="MR0"/>
-<element name="U$288" library="silk" package="ZED#F9K230" value="" x="67.178" y="64.55" smashed="yes" rot="MR0"/>
-<element name="U$289" library="silk" package="L1#L2229" value="" x="63.848" y="58.93" smashed="yes" rot="R270"/>
-<element name="U$290" library="silk" package="ANTENNA229" value="" x="62.578" y="59.71" smashed="yes" rot="R270"/>
-<element name="U$291" library="silk" package="ZED#F9K230" value="" x="51.448" y="65.88" smashed="yes" rot="R270"/>
+<element name="U$261" library="silkbot" package="#SCL#SCK#12" value="" x="81.288" y="77.44" smashed="yes" rot="MR0"/>
+<element name="U$262" library="silkbot" package="#D##6" value="" x="83.508" y="72.34" smashed="yes" rot="MR0"/>
+<element name="U$263" library="silkbot" package="#D##7" value="" x="83.518" y="74.9" smashed="yes" rot="MR0"/>
+<element name="U$264" library="silkbot" package="#W##4" value="" x="83.338" y="67.29" smashed="yes" rot="MR0"/>
+<element name="U$265" library="silkbot" package="#W##5" value="" x="83.398" y="69.82" smashed="yes" rot="MR0"/>
+<element name="U$266" library="silk" package="#GND#0" value="" x="47.658" y="92.65" smashed="yes" rot="MR0"/>
+<element name="U$267" library="silk" package="#3V3#6" value="" x="47.558" y="90.12" smashed="yes" rot="MR0"/>
+<element name="U$268" library="silk" package="#SDA#6" value="" x="47.658" y="87.63" smashed="yes" rot="MR0"/>
+<element name="U$269" library="silk" package="#SCL#7" value="" x="47.488" y="85.06" smashed="yes" rot="MR0"/>
+<element name="U$270" library="silkbot" package="#TXR#3" value="" x="47.698" y="82.51" smashed="yes" rot="MR0"/>
+<element name="U$271" library="silkbot" package="##RST##16" value="" x="47.598" y="80.03" smashed="yes" rot="MR0"/>
+<element name="U$272" library="silkbot" package="##SFBT##17" value="" x="48.038" y="77.45" smashed="yes" rot="MR0"/>
+<element name="U$273" library="silk" package="#INT#8" value="" x="47.428" y="74.84" smashed="yes" rot="MR0"/>
+<element name="U$274" library="silkbot" package="#PPS#0" value="" x="47.538" y="72.29" smashed="yes" rot="MR0"/>
+<element name="U$275" library="silk" package="#RTK#25" value="" x="79.718" y="59.05" smashed="yes" rot="MR0"/>
+<element name="U$276" library="silk" package="#GEO#24" value="" x="75.788" y="59" smashed="yes" rot="MR0"/>
+<element name="U$277" library="silk" package="#PPS#21" value="" x="72.108" y="59.01" smashed="yes" rot="MR0"/>
+<element name="U$278" library="silk" package="#PWR#23" value="" x="68.288" y="59.05" smashed="yes" rot="MR0"/>
+<element name="U$279" library="silk" package="#SPI#22" value="" x="54.688" y="83.07" smashed="yes" rot="MR90"/>
+<element name="U$280" library="silk" package="#I2C#23" value="" x="54.948" y="89.25" smashed="yes" rot="MR90"/>
+<element name="U$281" library="silk" package="#RXI2#227" value="" x="72.908" y="102.51" smashed="yes" rot="MR90"/>
+<element name="U$282" library="silkbot" package="#TXO2#1" value="" x="75.388" y="102.2" smashed="yes" rot="MR90"/>
+<element name="U$283" library="silk" package="#GND#0" value="" x="65.228" y="102.63" smashed="yes" rot="MR90"/>
+<element name="U$284" library="silk" package="BLK227" value="" x="63.197" y="105.39" smashed="yes" rot="MR0"/>
+<element name="U$285" library="silk" package="GRN228" value="" x="80.15" y="105.383" smashed="yes" rot="MR0"/>
+<element name="U$286" library="silk" package="GNSS#DEAD_RECKONING230" value="" x="65.828" y="66.94" smashed="yes" rot="MR0"/>
+<element name="U$287" library="silk" package="ZED#F9K230" value="" x="67.178" y="64.55" smashed="yes" rot="MR0"/>
+<element name="U$288" library="silk" package="L1#L2229" value="" x="63.848" y="58.93" smashed="yes" rot="R270"/>
+<element name="U$289" library="silk" package="ANTENNA229" value="" x="62.578" y="59.71" smashed="yes" rot="R270"/>
+<element name="U$290" library="silk" package="ZED#F9K230" value="" x="51.448" y="65.88" smashed="yes" rot="R270"/>
 <element name="U19" library="SparkFun-IC-Amplifiers" package="SIP6" value="UHS_INVERTER_SCHMITT_TRIGGERSIP6" x="67.8848" y="66.821" smashed="yes">
 <attribute name="NAME" x="64.0828" y="69.35533125" size="1.27" layer="25"/>
 <attribute name="PROD_ID" value="IC-15068" x="67.8848" y="66.821" size="1.778" layer="27" display="off"/>
@@ -16266,7 +16252,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="75.65333125" y="65.54" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="TP4" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="72.898" y="99.06" smashed="yes" rot="MR0"/>
-<element name="U$292" library="silk" package="#PPS#20" value="" x="47.498" y="72.263" smashed="yes"/>
+<element name="U$291" library="silk" package="#PPS#20" value="" x="47.498" y="72.263" smashed="yes"/>
+<element name="U$292" library="silkbot" package="#TXO#CIPO#9" value="" x="80.645" y="80.01" smashed="yes" rot="MR0"/>
 <element name="J25" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="5.08" y="153.67" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.921" y="155.067" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-13694" x="5.08" y="153.67" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -16618,37 +16605,36 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$331" library="silk" package="#GND#0" value="" x="39.17" y="148.55" smashed="yes" rot="MR0"/>
 <element name="U$332" library="silkbot" package="#SDA##CS##10" value="" x="37.81" y="140.94" smashed="yes" rot="MR0"/>
 <element name="U$333" library="silkbot" package="#RXI#COPI#8" value="" x="37.3" y="138.45" smashed="yes" rot="MR0"/>
-<element name="U$334" library="silkbot" package="#TXO#COPI#9" value="" x="36.88" y="135.84" smashed="yes" rot="MR0"/>
-<element name="U$335" library="silkbot" package="#SCL#SCK#12" value="" x="37.6" y="133.32" smashed="yes" rot="MR0"/>
-<element name="U$336" library="silkbot" package="#D##6" value="" x="39.82" y="128.22" smashed="yes" rot="MR0"/>
-<element name="U$337" library="silkbot" package="#D##7" value="" x="39.83" y="130.78" smashed="yes" rot="MR0"/>
-<element name="U$338" library="silkbot" package="#W##4" value="" x="39.65" y="123.17" smashed="yes" rot="MR0"/>
-<element name="U$339" library="silkbot" package="#W##5" value="" x="39.71" y="125.7" smashed="yes" rot="MR0"/>
-<element name="U$340" library="silk" package="#GND#0" value="" x="3.97" y="148.53" smashed="yes" rot="MR0"/>
-<element name="U$341" library="silk" package="#3V3#6" value="" x="3.87" y="146" smashed="yes" rot="MR0"/>
-<element name="U$342" library="silk" package="#SDA#6" value="" x="3.97" y="143.51" smashed="yes" rot="MR0"/>
-<element name="U$343" library="silk" package="#SCL#7" value="" x="3.8" y="140.94" smashed="yes" rot="MR0"/>
-<element name="U$344" library="silkbot" package="#TXR#3" value="" x="4.01" y="138.39" smashed="yes" rot="MR0"/>
-<element name="U$345" library="silkbot" package="##RST##16" value="" x="3.91" y="135.91" smashed="yes" rot="MR0"/>
-<element name="U$346" library="silkbot" package="##SFBT##17" value="" x="4.35" y="133.33" smashed="yes" rot="MR0"/>
-<element name="U$347" library="silk" package="#INT#8" value="" x="3.74" y="130.72" smashed="yes" rot="MR0"/>
-<element name="U$348" library="silkbot" package="#PPS#0" value="" x="3.85" y="128.17" smashed="yes" rot="MR0"/>
-<element name="U$349" library="silk" package="#RTK#25" value="" x="36.03" y="114.93" smashed="yes" rot="MR0"/>
-<element name="U$350" library="silk" package="#GEO#24" value="" x="32.1" y="114.88" smashed="yes" rot="MR0"/>
-<element name="U$351" library="silk" package="#PPS#21" value="" x="28.42" y="114.89" smashed="yes" rot="MR0"/>
-<element name="U$352" library="silk" package="#PWR#23" value="" x="24.6" y="114.93" smashed="yes" rot="MR0"/>
-<element name="U$353" library="silk" package="#SPI#22" value="" x="11" y="138.95" smashed="yes" rot="MR90"/>
-<element name="U$354" library="silk" package="#I2C#23" value="" x="11.26" y="145.13" smashed="yes" rot="MR90"/>
-<element name="U$355" library="silk" package="#RXI2#227" value="" x="29.22" y="158.39" smashed="yes" rot="MR90"/>
-<element name="U$356" library="silkbot" package="#TXO2#1" value="" x="31.7" y="158.08" smashed="yes" rot="MR90"/>
-<element name="U$357" library="silk" package="#GND#0" value="" x="21.54" y="158.51" smashed="yes" rot="MR90"/>
-<element name="U$358" library="silk" package="BLK227" value="" x="19.509" y="161.27" smashed="yes" rot="MR0"/>
-<element name="U$359" library="silk" package="GRN228" value="" x="36.462" y="161.263" smashed="yes" rot="MR0"/>
-<element name="U$360" library="silk" package="GNSS#DEAD_RECKONING230" value="" x="22.14" y="122.82" smashed="yes" rot="MR0"/>
-<element name="U$361" library="silk" package="ZED#F9K230" value="" x="23.49" y="120.43" smashed="yes" rot="MR0"/>
-<element name="U$362" library="silk" package="L1#L2229" value="" x="20.16" y="114.81" smashed="yes" rot="R270"/>
-<element name="U$363" library="silk" package="ANTENNA229" value="" x="18.89" y="115.59" smashed="yes" rot="R270"/>
-<element name="U$364" library="silk" package="ZED#F9K230" value="" x="7.76" y="121.76" smashed="yes" rot="R270"/>
+<element name="U$334" library="silkbot" package="#SCL#SCK#12" value="" x="37.6" y="133.32" smashed="yes" rot="MR0"/>
+<element name="U$335" library="silkbot" package="#D##6" value="" x="39.82" y="128.22" smashed="yes" rot="MR0"/>
+<element name="U$336" library="silkbot" package="#D##7" value="" x="39.83" y="130.78" smashed="yes" rot="MR0"/>
+<element name="U$337" library="silkbot" package="#W##4" value="" x="39.65" y="123.17" smashed="yes" rot="MR0"/>
+<element name="U$338" library="silkbot" package="#W##5" value="" x="39.71" y="125.7" smashed="yes" rot="MR0"/>
+<element name="U$339" library="silk" package="#GND#0" value="" x="3.97" y="148.53" smashed="yes" rot="MR0"/>
+<element name="U$340" library="silk" package="#3V3#6" value="" x="3.87" y="146" smashed="yes" rot="MR0"/>
+<element name="U$341" library="silk" package="#SDA#6" value="" x="3.97" y="143.51" smashed="yes" rot="MR0"/>
+<element name="U$342" library="silk" package="#SCL#7" value="" x="3.8" y="140.94" smashed="yes" rot="MR0"/>
+<element name="U$343" library="silkbot" package="#TXR#3" value="" x="4.01" y="138.39" smashed="yes" rot="MR0"/>
+<element name="U$344" library="silkbot" package="##RST##16" value="" x="3.91" y="135.91" smashed="yes" rot="MR0"/>
+<element name="U$345" library="silkbot" package="##SFBT##17" value="" x="4.35" y="133.33" smashed="yes" rot="MR0"/>
+<element name="U$346" library="silk" package="#INT#8" value="" x="3.74" y="130.72" smashed="yes" rot="MR0"/>
+<element name="U$347" library="silkbot" package="#PPS#0" value="" x="3.85" y="128.17" smashed="yes" rot="MR0"/>
+<element name="U$348" library="silk" package="#RTK#25" value="" x="36.03" y="114.93" smashed="yes" rot="MR0"/>
+<element name="U$349" library="silk" package="#GEO#24" value="" x="32.1" y="114.88" smashed="yes" rot="MR0"/>
+<element name="U$350" library="silk" package="#PPS#21" value="" x="28.42" y="114.89" smashed="yes" rot="MR0"/>
+<element name="U$351" library="silk" package="#PWR#23" value="" x="24.6" y="114.93" smashed="yes" rot="MR0"/>
+<element name="U$352" library="silk" package="#SPI#22" value="" x="11" y="138.95" smashed="yes" rot="MR90"/>
+<element name="U$353" library="silk" package="#I2C#23" value="" x="11.26" y="145.13" smashed="yes" rot="MR90"/>
+<element name="U$354" library="silk" package="#RXI2#227" value="" x="29.22" y="158.39" smashed="yes" rot="MR90"/>
+<element name="U$355" library="silkbot" package="#TXO2#1" value="" x="31.7" y="158.08" smashed="yes" rot="MR90"/>
+<element name="U$356" library="silk" package="#GND#0" value="" x="21.54" y="158.51" smashed="yes" rot="MR90"/>
+<element name="U$357" library="silk" package="BLK227" value="" x="19.509" y="161.27" smashed="yes" rot="MR0"/>
+<element name="U$358" library="silk" package="GRN228" value="" x="36.462" y="161.263" smashed="yes" rot="MR0"/>
+<element name="U$359" library="silk" package="GNSS#DEAD_RECKONING230" value="" x="22.14" y="122.82" smashed="yes" rot="MR0"/>
+<element name="U$360" library="silk" package="ZED#F9K230" value="" x="23.49" y="120.43" smashed="yes" rot="MR0"/>
+<element name="U$361" library="silk" package="L1#L2229" value="" x="20.16" y="114.81" smashed="yes" rot="R270"/>
+<element name="U$362" library="silk" package="ANTENNA229" value="" x="18.89" y="115.59" smashed="yes" rot="R270"/>
+<element name="U$363" library="silk" package="ZED#F9K230" value="" x="7.76" y="121.76" smashed="yes" rot="R270"/>
 <element name="U24" library="SparkFun-IC-Amplifiers" package="SIP6" value="UHS_INVERTER_SCHMITT_TRIGGERSIP6" x="24.1968" y="122.701" smashed="yes">
 <attribute name="NAME" x="20.3948" y="125.23533125" size="1.27" layer="25"/>
 <attribute name="PROD_ID" value="IC-15068" x="24.1968" y="122.701" size="1.778" layer="27" display="off"/>
@@ -16660,7 +16646,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="31.96533125" y="121.42" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="TP5" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="29.21" y="154.94" smashed="yes" rot="MR0"/>
-<element name="U$365" library="silk" package="#PPS#20" value="" x="3.81" y="128.143" smashed="yes"/>
+<element name="U$364" library="silk" package="#PPS#20" value="" x="3.81" y="128.143" smashed="yes"/>
+<element name="U$365" library="silkbot" package="#TXO#CIPO#9" value="" x="36.957" y="135.89" smashed="yes" rot="MR0"/>
 <element name="J31" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="48.768" y="153.67" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.609" y="155.067" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-13694" x="48.768" y="153.67" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -17012,37 +16999,36 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$404" library="silk" package="#GND#0" value="" x="82.858" y="148.55" smashed="yes" rot="MR0"/>
 <element name="U$405" library="silkbot" package="#SDA##CS##10" value="" x="81.498" y="140.94" smashed="yes" rot="MR0"/>
 <element name="U$406" library="silkbot" package="#RXI#COPI#8" value="" x="80.988" y="138.45" smashed="yes" rot="MR0"/>
-<element name="U$407" library="silkbot" package="#TXO#COPI#9" value="" x="80.568" y="135.84" smashed="yes" rot="MR0"/>
-<element name="U$408" library="silkbot" package="#SCL#SCK#12" value="" x="81.288" y="133.32" smashed="yes" rot="MR0"/>
-<element name="U$409" library="silkbot" package="#D##6" value="" x="83.508" y="128.22" smashed="yes" rot="MR0"/>
-<element name="U$410" library="silkbot" package="#D##7" value="" x="83.518" y="130.78" smashed="yes" rot="MR0"/>
-<element name="U$411" library="silkbot" package="#W##4" value="" x="83.338" y="123.17" smashed="yes" rot="MR0"/>
-<element name="U$412" library="silkbot" package="#W##5" value="" x="83.398" y="125.7" smashed="yes" rot="MR0"/>
-<element name="U$413" library="silk" package="#GND#0" value="" x="47.658" y="148.53" smashed="yes" rot="MR0"/>
-<element name="U$414" library="silk" package="#3V3#6" value="" x="47.558" y="146" smashed="yes" rot="MR0"/>
-<element name="U$415" library="silk" package="#SDA#6" value="" x="47.658" y="143.51" smashed="yes" rot="MR0"/>
-<element name="U$416" library="silk" package="#SCL#7" value="" x="47.488" y="140.94" smashed="yes" rot="MR0"/>
-<element name="U$417" library="silkbot" package="#TXR#3" value="" x="47.698" y="138.39" smashed="yes" rot="MR0"/>
-<element name="U$418" library="silkbot" package="##RST##16" value="" x="47.598" y="135.91" smashed="yes" rot="MR0"/>
-<element name="U$419" library="silkbot" package="##SFBT##17" value="" x="48.038" y="133.33" smashed="yes" rot="MR0"/>
-<element name="U$420" library="silk" package="#INT#8" value="" x="47.428" y="130.72" smashed="yes" rot="MR0"/>
-<element name="U$421" library="silkbot" package="#PPS#0" value="" x="47.538" y="128.17" smashed="yes" rot="MR0"/>
-<element name="U$422" library="silk" package="#RTK#25" value="" x="79.718" y="114.93" smashed="yes" rot="MR0"/>
-<element name="U$423" library="silk" package="#GEO#24" value="" x="75.788" y="114.88" smashed="yes" rot="MR0"/>
-<element name="U$424" library="silk" package="#PPS#21" value="" x="72.108" y="114.89" smashed="yes" rot="MR0"/>
-<element name="U$425" library="silk" package="#PWR#23" value="" x="68.288" y="114.93" smashed="yes" rot="MR0"/>
-<element name="U$426" library="silk" package="#SPI#22" value="" x="54.688" y="138.95" smashed="yes" rot="MR90"/>
-<element name="U$427" library="silk" package="#I2C#23" value="" x="54.948" y="145.13" smashed="yes" rot="MR90"/>
-<element name="U$428" library="silk" package="#RXI2#227" value="" x="72.908" y="158.39" smashed="yes" rot="MR90"/>
-<element name="U$429" library="silkbot" package="#TXO2#1" value="" x="75.388" y="158.08" smashed="yes" rot="MR90"/>
-<element name="U$430" library="silk" package="#GND#0" value="" x="65.228" y="158.51" smashed="yes" rot="MR90"/>
-<element name="U$431" library="silk" package="BLK227" value="" x="63.197" y="161.27" smashed="yes" rot="MR0"/>
-<element name="U$432" library="silk" package="GRN228" value="" x="80.15" y="161.263" smashed="yes" rot="MR0"/>
-<element name="U$433" library="silk" package="GNSS#DEAD_RECKONING230" value="" x="65.828" y="122.82" smashed="yes" rot="MR0"/>
-<element name="U$434" library="silk" package="ZED#F9K230" value="" x="67.178" y="120.43" smashed="yes" rot="MR0"/>
-<element name="U$435" library="silk" package="L1#L2229" value="" x="63.848" y="114.81" smashed="yes" rot="R270"/>
-<element name="U$436" library="silk" package="ANTENNA229" value="" x="62.578" y="115.59" smashed="yes" rot="R270"/>
-<element name="U$437" library="silk" package="ZED#F9K230" value="" x="51.448" y="121.76" smashed="yes" rot="R270"/>
+<element name="U$407" library="silkbot" package="#SCL#SCK#12" value="" x="81.288" y="133.32" smashed="yes" rot="MR0"/>
+<element name="U$408" library="silkbot" package="#D##6" value="" x="83.508" y="128.22" smashed="yes" rot="MR0"/>
+<element name="U$409" library="silkbot" package="#D##7" value="" x="83.518" y="130.78" smashed="yes" rot="MR0"/>
+<element name="U$410" library="silkbot" package="#W##4" value="" x="83.338" y="123.17" smashed="yes" rot="MR0"/>
+<element name="U$411" library="silkbot" package="#W##5" value="" x="83.398" y="125.7" smashed="yes" rot="MR0"/>
+<element name="U$412" library="silk" package="#GND#0" value="" x="47.658" y="148.53" smashed="yes" rot="MR0"/>
+<element name="U$413" library="silk" package="#3V3#6" value="" x="47.558" y="146" smashed="yes" rot="MR0"/>
+<element name="U$414" library="silk" package="#SDA#6" value="" x="47.658" y="143.51" smashed="yes" rot="MR0"/>
+<element name="U$415" library="silk" package="#SCL#7" value="" x="47.488" y="140.94" smashed="yes" rot="MR0"/>
+<element name="U$416" library="silkbot" package="#TXR#3" value="" x="47.698" y="138.39" smashed="yes" rot="MR0"/>
+<element name="U$417" library="silkbot" package="##RST##16" value="" x="47.598" y="135.91" smashed="yes" rot="MR0"/>
+<element name="U$418" library="silkbot" package="##SFBT##17" value="" x="48.038" y="133.33" smashed="yes" rot="MR0"/>
+<element name="U$419" library="silk" package="#INT#8" value="" x="47.428" y="130.72" smashed="yes" rot="MR0"/>
+<element name="U$420" library="silkbot" package="#PPS#0" value="" x="47.538" y="128.17" smashed="yes" rot="MR0"/>
+<element name="U$421" library="silk" package="#RTK#25" value="" x="79.718" y="114.93" smashed="yes" rot="MR0"/>
+<element name="U$422" library="silk" package="#GEO#24" value="" x="75.788" y="114.88" smashed="yes" rot="MR0"/>
+<element name="U$423" library="silk" package="#PPS#21" value="" x="72.108" y="114.89" smashed="yes" rot="MR0"/>
+<element name="U$424" library="silk" package="#PWR#23" value="" x="68.288" y="114.93" smashed="yes" rot="MR0"/>
+<element name="U$425" library="silk" package="#SPI#22" value="" x="54.688" y="138.95" smashed="yes" rot="MR90"/>
+<element name="U$426" library="silk" package="#I2C#23" value="" x="54.948" y="145.13" smashed="yes" rot="MR90"/>
+<element name="U$427" library="silk" package="#RXI2#227" value="" x="72.908" y="158.39" smashed="yes" rot="MR90"/>
+<element name="U$428" library="silkbot" package="#TXO2#1" value="" x="75.388" y="158.08" smashed="yes" rot="MR90"/>
+<element name="U$429" library="silk" package="#GND#0" value="" x="65.228" y="158.51" smashed="yes" rot="MR90"/>
+<element name="U$430" library="silk" package="BLK227" value="" x="63.197" y="161.27" smashed="yes" rot="MR0"/>
+<element name="U$431" library="silk" package="GRN228" value="" x="80.15" y="161.263" smashed="yes" rot="MR0"/>
+<element name="U$432" library="silk" package="GNSS#DEAD_RECKONING230" value="" x="65.828" y="122.82" smashed="yes" rot="MR0"/>
+<element name="U$433" library="silk" package="ZED#F9K230" value="" x="67.178" y="120.43" smashed="yes" rot="MR0"/>
+<element name="U$434" library="silk" package="L1#L2229" value="" x="63.848" y="114.81" smashed="yes" rot="R270"/>
+<element name="U$435" library="silk" package="ANTENNA229" value="" x="62.578" y="115.59" smashed="yes" rot="R270"/>
+<element name="U$436" library="silk" package="ZED#F9K230" value="" x="51.448" y="121.76" smashed="yes" rot="R270"/>
 <element name="U29" library="SparkFun-IC-Amplifiers" package="SIP6" value="UHS_INVERTER_SCHMITT_TRIGGERSIP6" x="67.8848" y="122.701" smashed="yes">
 <attribute name="NAME" x="64.0828" y="125.23533125" size="1.27" layer="25"/>
 <attribute name="PROD_ID" value="IC-15068" x="67.8848" y="122.701" size="1.778" layer="27" display="off"/>
@@ -17054,7 +17040,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="75.65333125" y="121.42" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="TP6" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="72.898" y="154.94" smashed="yes" rot="MR0"/>
-<element name="U$438" library="silk" package="#PPS#20" value="" x="47.498" y="128.143" smashed="yes"/>
+<element name="U$437" library="silk" package="#PPS#20" value="" x="47.498" y="128.143" smashed="yes"/>
+<element name="U$438" library="silkbot" package="#TXO#CIPO#9" value="" x="80.645" y="135.89" smashed="yes" rot="MR0"/>
 <element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="164.465" smashed="yes"/>
 <element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="164.465" smashed="yes" rot="MR0"/>
 <element name="E$3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="89.49181875" y="164.465" smashed="yes"/>
