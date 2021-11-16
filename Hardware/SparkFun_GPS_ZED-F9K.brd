@@ -3862,6 +3862,8 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="-3.175" y1="5.842" x2="3.175" y2="5.842" width="0.0254" layer="51"/>
 <wire x1="-2.667" y1="7.112" x2="3.175" y2="7.366" width="0.0254" layer="51"/>
 <wire x1="2.667" y1="6.604" x2="3.175" y2="6.35" width="0.0762" layer="51"/>
+<wire x1="-0.4" y1="9.906" x2="0" y2="10.58" width="0.0762" layer="51"/>
+<wire x1="0" y1="10.58" x2="0.4" y2="9.906" width="0.0762" layer="51"/>
 </package>
 </packages>
 </library>
@@ -14732,6 +14734,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="U1" library="SparkFun-DiscreteSemi" package="SO08" value="DUAL-OPTO_HCPL-073LSOIC-8" x="29.9426" y="9.2562" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.59326875" y="5.4512" size="1.778" layer="25" rot="R90"/>
+<attribute name="PROD_ID" value="IC-15070" x="29.9426" y="9.2562" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="34.43493125" y="5.4512" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="27.559" y="5.715" smashed="yes">
@@ -14778,7 +14781,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$52" library="Orientation" package="Y2" value="" x="12.954" y="15.494" smashed="yes" rot="MR0"/>
 <element name="U$57" library="Orientation" package="Z0" value="" x="11.176" y="13.462" smashed="yes" rot="MR0"/>
 <element name="U$63" library="Orientation" package="Z0" value="" x="10.892" y="12.372" smashed="yes"/>
-<element name="D9" library="SparkFun-DiscreteSemi" package="0402" value="PESD0402" x="17.78" y="11.43" smashed="yes" rot="R180">
+<element name="D9" library="SparkFun-DiscreteSemi" package="0402" value="PESD0402-0402" x="17.78" y="11.43" smashed="yes" rot="R180">
 <attribute name="DIGIKEY_PART" value="PESD0402-140CT-ND" x="17.78" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSE_PART" value="650-PESD0402-140" x="17.78" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="17.78" y="10.668" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
