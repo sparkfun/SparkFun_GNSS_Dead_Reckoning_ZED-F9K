@@ -1,7 +1,7 @@
 SparkFun GNSS-RTK Dead Reckoning Breakout - ZED-F9K (Qwiic)
 ========================================
 
-[![SparkFun GNSS-RTK Dead Reckoning Breakout - ZED-F9K (Qwiic)](URL for picture of part)](https://www.sparkfun.com/products/18719)
+[![SparkFun GNSS-RTK Dead Reckoning Breakout - ZED-F9K (Qwiic)](https://cdn.sparkfun.com/assets/parts/1/8/2/6/6/18719-SparkFun_GNSS-RTK_Dead_Reckoning_Breakout_-_ZED-F9K__Qwiic_-01.jpg)](https://www.sparkfun.com/products/18719)
 
 [*SparkFun GNSS-RTK Dead Reckoning Breakout - ZED-F9K (Qwiic) (GPS-18719)*](https://www.sparkfun.com/products/18719)
 
