@@ -16,7 +16,7 @@ Repository Contents
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library)** - Arduino library
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/18719)** - Basic hookup guide
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/2005)** - Basic hookup guide
 
 Product Versions
 ----------------
